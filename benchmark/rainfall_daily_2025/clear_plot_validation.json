@@ -1,0 +1,23 @@
+{
+  "source_rows": 365,
+  "numeric_observation_days": 312,
+  "complete_forecast_days": {
+    "HKO successive nowcasts": 360,
+    "GFS successive runs: nearest grid": 365,
+    "GFS successive runs: bilinear interpolation": 365
+  },
+  "common_numeric_days": 308,
+  "shared_axes": true,
+  "source_extremes_retained": true,
+  "source_and_original_figures_unchanged": true,
+  "preserved_sha256": {
+    "data\\derived\\task2_gfs_feasibility_2026-11-14\\daily_successive_runs\\daily_comparison.csv": "02cbdd78faa6c88c7e909eb5d0feae63272ddd6ac8183477d7326d0a6e12ce7d",
+    "data\\derived\\task2_gfs_feasibility_2026-11-14\\daily_successive_runs\\daily_workflow_comparison.png": "4562406f13ca89151274cfe70c9b5fddb124de47dcf3dcf9aa8f5b5cbee670f9",
+    "data\\derived\\hko_grid_hq_2025\\daily_comparison.csv": "3e369c94dc12c53ed4c838e770b815d0e8bca48ac88969c1a97b52c3582e1d28",
+    "data\\derived\\hko_grid_hq_2025\\daily_comparison.png": "b7e84b5541fe0d651ea845f9998c8374dd737c196caac4dee91ad3f0e9a68625"
+  },
+  "figure_sha256": "e66af19b8257b41c330a1a9bd6de5556ea9ccd8fe535ac3521dcfe7ef4ace966",
+  "visual_review": "passed: distinct panels, readable labels, shared axes, no clipping",
+  "markdown_image_links": "passed",
+  "original_image_before_new_image": true
+}

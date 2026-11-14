@@ -1,0 +1,2 @@
+# Preserve frozen input bytes and publication hashes across checkouts.
+* -text whitespace=trailing-space,space-before-tab,cr-at-eol

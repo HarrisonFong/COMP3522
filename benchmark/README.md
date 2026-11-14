@@ -118,3 +118,7 @@ GFS 單一參照可以回答範圍明確的 HKO–GFS 問題，結論限於所�
     .\.venv\Scripts\python.exe -m unittest discover -s benchmark -v
 
 連接讀取根目錄 .env。首次運行舊測試曾遇到沙箱系統臨時目錄權限問題，將臨時目錄限定在倉庫 tmp/ 後通過，未修改原測試邏輯。
+
+## 2025 全年雨量流程比較
+
+[HKO 與 GFS daily rainfall workflow comparison](rainfall_daily_2025/README.md) 包含全年圖表、308 個共同 numeric days 的誤差、Trace／缺測限制與固定 CSV 的重現程式。此研究比較 successive-nowcast／successive-run 日累積流程，不是相同 lead time 的模型排名；不更改上方歷史 temperature pilot。

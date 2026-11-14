@@ -1,0 +1,21 @@
+{
+  "gfs_runs": 1461,
+  "native_cumulative_fields": 1826,
+  "valid_windows": 1825,
+  "coverage_hours": 8760,
+  "daily_rows": 365,
+  "window_bookkeeping": "passed: continuous, nonoverlapping, latest issue, same-run endpoints, HKT cycles and year padding",
+  "independent_daily_formula": "passed for both spatial methods on all 365 days",
+  "original_noaa_grib_controls": 6,
+  "original_four_cell_differences_mm": 0,
+  "independent_loss_recomputation": "passed: 312 standalone,308 paired,307 influence-only cases",
+  "frozen_hko_csv_and_png": "hashes unchanged; MAE/RMSE match old summary",
+  "cache_hashes_verified": 1461,
+  "numpy_version": "2.5.3",
+  "plot_visual_review": "passed",
+  "report_tables_and_local_links": "passed",
+  "terra_summary_review": "completed",
+  "available_time_status": "GFS unknown; issue-time proxy only. HKO retains original capture eligibility.",
+  "report_sha256": "49036195130fc23d17ed0cce143956ae5b5837ca4e8ad4e2df2a555c27ee1029",
+  "analysis_script_sha256": "ec310bb9448befb9512f3aca608deae61ea0bd3dc504b4f5f724a5f82a5bc462"
+}
