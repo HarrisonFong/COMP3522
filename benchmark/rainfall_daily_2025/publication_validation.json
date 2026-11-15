@@ -1,0 +1,8 @@
+{
+  "fixed_csv_metrics_and_bootstrap_ci": "passed reproduce.py --plot",
+  "clear_figure_redraw": "byte-identical to published clear figure",
+  "local_markdown_links": "passed",
+  "terra_summary_review": "passed; all tables retained",
+  "data_scope": "derived daily CSV and window ledger only; no database access",
+  "publication_size_mb": 1.24
+}

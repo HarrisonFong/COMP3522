@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20241231/12/atmos/gfs.t12z.pgrb2.0p25.f004",
+    "index_line": "597:425517902:d=2024123112:APCP:surface:0-4 hour acc fcst:",
+    "raw_path": "data\\raw\\task2_daily_successive_runs_20261114\\20241231_12_f004_APCP.grib2",
+    "sha256": "ba8b0abd8c3c1253977d6708d6e869cb7e876c81794a6faccb9859e93d473127",
+    "run_time_utc": "2024-12-31T12:00:00+00:00",
+    "hour": 4,
+    "max_four_cell_difference_mm": 0.0
+  },
+  {
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20241231/12/atmos/gfs.t12z.pgrb2.0p25.f006",
+    "index_line": "597:426911450:d=2024123112:APCP:surface:0-6 hour acc fcst:",
+    "raw_path": "data\\raw\\task2_daily_successive_runs_20261114\\20241231_12_f006_APCP.grib2",
+    "sha256": "75a783bd3f5be5ca63ecf1501581146af57b71e620d1b96b0cd51276dac03cd7",
+    "run_time_utc": "2024-12-31T12:00:00+00:00",
+    "hour": 6,
+    "max_four_cell_difference_mm": 0.0
+  },
+  {
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20250101/00/atmos/gfs.t00z.pgrb2.0p25.f006",
+    "index_line": "597:428625887:d=2025010100:APCP:surface:0-6 hour acc fcst:",
+    "raw_path": "data\\raw\\task2_daily_successive_runs_20261114\\20250101_00_f006_APCP.grib2",
+    "sha256": "54734016dc6bc34d9a0a36864820ba062a083c9faefc3b098c3e4286af873b15",
+    "run_time_utc": "2025-01-01T00:00:00+00:00",
+    "hour": 6,
+    "max_four_cell_difference_mm": 0.0
+  },
+  {
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20250530/06/atmos/gfs.t06z.pgrb2.0p25.f006",
+    "index_line": "597:428688233:d=2025053006:APCP:surface:0-6 hour acc fcst:",
+    "raw_path": "data\\raw\\task2_daily_successive_runs_20261114\\20250530_06_f006_APCP.grib2",
+    "sha256": "2f3d64851cda24f60fdba9bb44a1a27f3b442303013012bbf9841beb11036efb",
+    "run_time_utc": "2025-05-30T06:00:00+00:00",
+    "hour": 6,
+    "max_four_cell_difference_mm": 0.0
+  },
+  {
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20250805/18/atmos/gfs.t18z.pgrb2.0p25.f006",
+    "index_line": "597:434051469:d=2025080518:APCP:surface:0-6 hour acc fcst:",
+    "raw_path": "data\\raw\\task2_daily_successive_runs_20261114\\20250805_18_f006_APCP.grib2",
+    "sha256": "ae089d3022983a14201b0080cae1a5d1e5731ae4163a4b2ea1d50be8ae726956",
+    "run_time_utc": "2025-08-05T18:00:00+00:00",
+    "hour": 6,
+    "max_four_cell_difference_mm": 0.0
+  },
+  {
+    "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20251231/12/atmos/gfs.t12z.pgrb2.0p25.f004",
+    "index_line": "597:431101699:d=2025123112:APCP:surface:0-4 hour acc fcst:",
+    "raw_path": "data\\raw\\task2_daily_successive_runs_20261114\\20251231_12_f004_APCP.grib2",
+    "sha256": "7749567172d348bb10d58ead0668b1f3239d7520d728e47c0b237a705e982cb2",
+    "run_time_utc": "2025-12-31T12:00:00+00:00",
+    "hour": 4,
+    "max_four_cell_difference_mm": 0.0
+  }
+]
