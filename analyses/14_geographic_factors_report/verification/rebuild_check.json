@@ -1,6 +1,7 @@
 {
   "summary_only_rebuild": "passed",
-  "main_html_byte_identical": true,
+  "main_html_byte_identical": false,
+  "main_html_normalized_text_identical": true,
   "figure_hash_matches": {
     "13_01_altitude.png": true,
     "13_02_lowland.png": true,
@@ -16,6 +17,28 @@
     "14_urban_counts.png": true
   },
   "no_database_access": true,
-  "publication_note": "Text line endings normalized to LF after byte-identical rebuild check; figures and numerical contents unchanged.",
-  "main_html_normalized_text_identical": true
+  "output_layout": "complete bundle; report/deepening/index.html",
+  "rebuilt_package_scan": {
+    "passed": true,
+    "checked_reports": 3,
+    "main_report_figures": 12,
+    "missing_links": [],
+    "credential_pattern_hits": [],
+    "forbidden_raw_or_secret_files": [],
+    "largest_file_bytes": 1764377
+  },
+  "rebuilt_manifest_verified": true,
+  "output_guards": {
+    "existing_output": "rejected",
+    "nested_output": "rejected"
+  },
+  "environment": {
+    "python": "3.14.6",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "platform": "Windows",
+    "font": "Microsoft JhengHei"
+  },
+  "publication_note": "HTML line endings can differ between Windows rebuild output and LF Git sources; normalized content and figure hashes are verified."
 }

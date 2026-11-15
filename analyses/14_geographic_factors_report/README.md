@@ -1,6 +1,6 @@
 # 香港氣溫預報：HKO 參考點、地方校正與地理因素
 
-本目錄集中保存研究結果、findings、正式報告及程式，供檢查後再提出 PR。主要比較 **全部 32 個自動氣象站**與**低於 200 m 的 29 站**；原研究 30 站只保留在附錄。
+本目錄集中保存研究結果、findings、正式報告及程式，供閱讀、審閱及追溯。主要比較 **全部 32 個自動氣象站**與**低於 200 m 的 29 站**；原研究 30 站只保留在附錄。
 
 ## 從這裡開始
 
@@ -45,14 +45,19 @@
 從本目錄執行：
 
 ```powershell
+python -m pip install -r requirements-report.txt
 python rebuild_report.py --output C:/path/to/new-report-output
 ```
 
-此指令使用包內結果表重新產生圖表與 HTML，不連接資料庫、不重新訓練模型。需要 pandas、numpy、matplotlib；中文字型需 Microsoft JhengHei 或 Noto Sans CJK TC。經原研究 Python 環境驗證。輸出路徑必須是尚未存在的新目錄。
+此指令使用包內結果表重新產生圖表與 HTML，不連接資料庫、不重新訓練模型。[重建依賴](requirements-report.txt)固定已驗證的 numpy、pandas、matplotlib 版本；驗證環境為 Windows、CPython 3.14.6。中文字型需 Microsoft JhengHei 或 Noto Sans CJK TC；跨平台字型差異可能改變圖片外觀。
+
+輸出路徑必須是來源資料夾以外、尚未存在的新目錄。輸出包含完整資料夾布局，請開啟 `new-report-output/report/deepening/index.html`；README、程式和附錄的相對連結會一併保留。重建結束前會執行連結與檔案檢查，並更新輸出資料夾的 `MANIFEST.json`。若檢查失敗，指令會回傳非零狀態。
+
+只檢查已下載的資料夾、不重建圖表，可執行 `python verify_package.py`，僅需 Python 標準函式庫。
 
 完整重算分析另需原始 CSV、GIS 資料及個案層級預測檔；這些大檔和任何資料庫憑證沒有放入此發佈包。原始分析程式保留原環境的檔案布局及路徑，供追溯；並不聲稱在乾淨 checkout 中能直接完成所有模型訓練。所用資料雜湊及各階段驗證結果保留於 metadata 和 verification 檔案。
 
-`SOURCE_SNAPSHOT_HASHES.json` 記錄複製後、可攜性修改前的檔案雜湊；`MANIFEST.json` 記錄最終發佈檔案。報告生成器只增加明確輸出路徑和字型相容設定，數值分析未因發佈而改動。
+`SOURCE_SNAPSHOT_HASHES.json` 記錄複製後、可攜性修改前的檔案雜湊；`MANIFEST.json` 記錄最終發佈檔案。發佈修改涵蓋輸出路徑、字型相容設定及完整資料夾的重建；程式範本保留於 `source/`，不再重複輸出到報告內。數值分析未因發佈而改動。
 
 ## 驗證
 

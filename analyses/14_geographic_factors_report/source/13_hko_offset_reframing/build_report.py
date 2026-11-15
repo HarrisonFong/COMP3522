@@ -127,8 +127,6 @@ css='''*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;backgro
 css+='details{margin:14px 0}section p{margin:18px 0}caption{color:#526978}.downloads{font-size:14px}@media print{header{padding:25px}section{padding:20px 0;margin:0;border-radius:0}details{break-inside:auto}}'
 page='<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HKO 參考點、地方校正與地理差異｜COMP3522</title><style>'+css+'</style>'+body+'</html>'
 index=DEST/'index.html';appendix=DEST/'technical_appendix.html'
-notes=DEST/'evidence_notes.html'
-if index.exists() and not notes.exists():shutil.copy2(index,notes)
 if not appendix.exists() and index.exists():shutil.copy2(index,appendix)
 # Scientific prose throughout the retained appendix and main parent report.
 replacements={'是組員提出、研究採用的操作門檻':'是研究採用的操作門檻','沿用組員研究門檻':'沿用研究門檻','與你和組員之前的研究有何不同':'與既有研究的差異','你本機':'本地既有分析','按組員要求不加季節':'本輪不加入季節','組員 RQ7':'RQ7','如何接上組員的最新結果':'與既有結果的銜接'}
@@ -142,8 +140,7 @@ for path in [appendix,MAIN/'index.html',HERE.parent/'12_geographic_deepening/bui
   path.write_text(text,encoding='utf-8')
 index.write_text(page,encoding='utf-8')
 destresults=DEST/'results/hko_offset';shutil.copytree(R,destresults,dirs_exist_ok=True)
-for name in ['run_analysis.py','verify_analysis.py','build_report.py','qa_report.cjs','README.md','report_body.html','reference_first_sections.html','report_extensions.py','analyze_continuous_coast.py','compare_existing_ml.py']:
- target=DEST/'code/hko_offset'/name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(HERE/name,target)
+# Published source and HTML templates live in the bundle's source/ directory.
 sources=[dict(url='https://www.info.gov.hk/gia/general/201202/22/P201202220231.htm',date='2012-02-22',supports='Government answer: HQ data historically used as indicator for weather reports and forecasts; not exclusive model input'),dict(url='https://my.weather.gov.hk/tc/index.html',accessed='2026-11-14',supports='Current-day max/min icon values at HKO; not full historical D1-D9 field documentation')]
 (DEST/'sources/hko_reference_sources.json').write_text(json.dumps(sources,ensure_ascii=False,indent=2),encoding='utf-8')
 print(index)
