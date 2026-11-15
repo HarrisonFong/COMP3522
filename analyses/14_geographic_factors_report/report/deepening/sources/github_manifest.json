@@ -1,0 +1,11 @@
+{
+  "access_date_hkt": "2026-11-14",
+  "repository": "JJChand/COMP3522",
+  "ref": "main",
+  "files": [
+    {"path": "analyses/09_geographic_temperature/results/findings.md", "blob_sha": "c128f07a3d6f0ead8dc106c5e939bb4e7070d624", "saved_as": "github_all_station_findings.md"},
+    {"path": "analyses/09_geographic_temperature_v2/general_forecast/README.md", "blob_sha": "07adbbd3650a07d146bbbc2a399d0021afbfd69e", "saved_as": "github_general_forecast_readme.md"},
+    {"path": "analyses/08_rq7_error_factors/results/findings.md", "blob_sha": "9217f399c9d22a190db6d0476e844c193e5f3082", "saved_as": "github_rq7_findings.md"}
+  ],
+  "scope": "Directly fetched relevant geographic and weather-factor results on main, plus local prior multifactor work. Not an exhaustive audit of all branches."
+}

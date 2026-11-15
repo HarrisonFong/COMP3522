@@ -1,0 +1,5 @@
+﻿target,method,basis,validation_loss
+Tmax,hgb_full,minimum 2024 validation loss; 2025 outcomes not used for choice,1.5887117301478537
+Tmin,hgb_full,minimum 2024 validation loss; 2025 outcomes not used for choice,1.1926592100056546
+rain_event,hgb_full,minimum 2024 validation loss; 2025 outcomes not used for choice,0.09974683546907721
+rain_amount,station_median,minimum 2024 validation loss; 2025 outcomes not used for choice,5.613080900486712

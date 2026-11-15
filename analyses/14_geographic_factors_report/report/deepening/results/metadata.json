@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-14",
+  "seed": 3522,
+  "bootstrap": {
+    "reps": 2000,
+    "calendar_block_days": 14,
+    "scope": "fixed stations; date resampling, no station-population or geographic-source uncertainty"
+  },
+  "station_source_sha256": "02081eee4f27a4732fedc8c5290924412ddaca130b8305eb208e572417b0617c",
+  "script_sha256": "69bc1d7853fc632935bc6cdd966c24121250507df888fa26e2128a70b2cb9664",
+  "temperature_period": "2022-2025 D3 raw public forecast",
+  "rain_period": "2025 D3 research PSR-category baseline",
+  "regression": "OLS loss ~ date fixed effects + six standardized static geographical features; equal date weight, equal observed-station weight within date; all / old30 / lowland; alternate urban proxies one at a time, region-dummy sensitivity",
+  "correlation": "station-level available-date mean losses; Pearson, Spearman and partial Spearman controlling other five; leave-one-station range is sensitivity, not CI",
+  "current_script_sha256": "d5acc610eada435566570b0f8fb6cafc6d793ceb985b71c08e10e8ace2340a50",
+  "post_run_code_change": "Only moved D3 audit outputs outside Git; numerical calculations unchanged. Original executed script hash retained in script_sha256."
+}

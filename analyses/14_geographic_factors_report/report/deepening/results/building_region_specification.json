@@ -1,0 +1,451 @@
+{
+  "building_data_snapshot": "2026-10-05 (current, not reconstructed historical 2022–2025 buildings)",
+  "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+  "crs": "EPSG:2326",
+  "primary_radius_m": 500,
+  "sensitivity_radii_m": [
+    250,
+    1000
+  ],
+  "permanent_types": [
+    "Tower",
+    "Podium"
+  ],
+  "exclude_primary_types": [
+    "Temporary Structure",
+    "Open-sided Structure"
+  ],
+  "primary_bcr": "Union of active Tower/Podium footprint area clipped to effective land within buffer / effective land area. Overlaps dissolved.",
+  "height_intensity": "Integral over effective land of maximum available (TopHeight - BaseHeight) across overlapping permanent footprints / effective land area; missing heights excluded, not imputed. Unit m. This is geometric intensity proxy, not measured floor area, population density or true 3D building volume.",
+  "height_quality_minimum": 0.9,
+  "highrise_threshold_m": 30,
+  "grouping": "Empirical thirds among complete-period AWS temperature candidates with sufficient geographic coverage, independent of forecast outcomes; <=lower, (lower,upper], >upper. Same fixed cuts apply to rainfall, not recalculated there.",
+  "thresholds": {
+    "building": [
+      0.05747741628451219,
+      0.13652222507667297
+    ],
+    "intensity": [
+      0.651177085066699,
+      2.570014664476614
+    ]
+  },
+  "denominator": "2023 effective land polygon derived from 10 m raster, excluding sea/unmapped, fish ponds, reservoirs, streams/nullahs, airport; exact vector building clipping to this land mask.",
+  "region": "18 administrative districts mapped to HKI(4), KL(5), NT(9). Islands District is included in NT for three-region main analysis; separately flagged and excluded in sensitivity. This is administrative grouping, not physical terrain.",
+  "region_HKI_districts": [
+    "Central and Western District",
+    "Eastern District",
+    "Southern District",
+    "Wan Chai District"
+  ],
+  "region_KL_districts": [
+    "Yau Tsim Mong District",
+    "Sham Shui Po District",
+    "Kowloon City District",
+    "Wong Tai Sin District",
+    "Kwun Tong District"
+  ],
+  "population": "2021 Census small-subunit statistics exist, but are not direct 500 m buffer populations. No population density is inferred from buildings or regional names.",
+  "audit": [
+    {
+      "station_code": "CCH",
+      "queried_features": 2933,
+      "feature_types": {
+        "Open-sided Structure": 140,
+        "Tower": 2580,
+        "Temporary Structure": 208,
+        "Podium": 5
+      },
+      "sha256": "86746847bd83bdc6b6db8b48dd65df306ef33295c0b97d948966945aeae5d5f0"
+    },
+    {
+      "station_code": "CWB",
+      "queried_features": 69,
+      "feature_types": {
+        "Open-sided Structure": 16,
+        "Tower": 31,
+        "Temporary Structure": 21,
+        "Podium": 1
+      },
+      "sha256": "bb142fc397bf5601e560400022f1a0d2d99b58e5e4026d8045f3910adf0eece0"
+    },
+    {
+      "station_code": "HKP",
+      "queried_features": 2564,
+      "feature_types": {
+        "Tower": 1955,
+        "Podium": 400,
+        "Open-sided Structure": 156,
+        "Temporary Structure": 53
+      },
+      "sha256": "d953db357350b413425dca63d52cca99141550210a39f11d6a5d4d7398201fbf"
+    },
+    {
+      "station_code": "HKS",
+      "queried_features": 1475,
+      "feature_types": {
+        "Tower": 912,
+        "Podium": 111,
+        "Open-sided Structure": 288,
+        "Temporary Structure": 164
+      },
+      "sha256": "4cec1252fdb5a173789cc3ea7f0887f454845318d5e85aeda95677b8ec4d4755"
+    },
+    {
+      "station_code": "HPV",
+      "queried_features": 3091,
+      "feature_types": {
+        "Tower": 2307,
+        "Podium": 503,
+        "Temporary Structure": 56,
+        "Open-sided Structure": 225
+      },
+      "sha256": "88fc8169c64cc5f5223d6a27d119b6d1d4f1452d91ffeea3f52a21d54921dc92"
+    },
+    {
+      "station_code": "JKB",
+      "queried_features": 928,
+      "feature_types": {
+        "Tower": 726,
+        "Open-sided Structure": 100,
+        "Podium": 54,
+        "Temporary Structure": 48
+      },
+      "sha256": "c289ecd17c448e02ac9c9dec8196e32524abff752d295be73da6ce76aa36fa64"
+    },
+    {
+      "station_code": "KLT",
+      "queried_features": 3363,
+      "feature_types": {
+        "Open-sided Structure": 378,
+        "Tower": 2742,
+        "Podium": 178,
+        "Temporary Structure": 65
+      },
+      "sha256": "10393a9ea37b020808799d40404aedf11407721d4a4ad1078c360a9b86020dcd"
+    },
+    {
+      "station_code": "KP",
+      "queried_features": 4602,
+      "feature_types": {
+        "Tower": 3774,
+        "Open-sided Structure": 132,
+        "Podium": 620,
+        "Temporary Structure": 76
+      },
+      "sha256": "17b0978ad191c0bc7a49426f4c23e2b27f14c0607c92111c88d954118b7f7243"
+    },
+    {
+      "station_code": "KSC",
+      "queried_features": 42,
+      "feature_types": {
+        "Tower": 27,
+        "Open-sided Structure": 8,
+        "Temporary Structure": 7
+      },
+      "sha256": "be49dd5975a5f61d6c0f9dec75d691babc76380c03d7ab8dd296b40bb6d2f755"
+    },
+    {
+      "station_code": "KTG",
+      "queried_features": 1868,
+      "feature_types": {
+        "Tower": 1407,
+        "Podium": 281,
+        "Temporary Structure": 49,
+        "Open-sided Structure": 131
+      },
+      "sha256": "ed7f5d42a84df9841f7dd0793a75eba10ae0b08eb91b6d96ca1835a6860f659c"
+    },
+    {
+      "station_code": "LFS",
+      "queried_features": 2787,
+      "feature_types": {
+        "Tower": 1334,
+        "Open-sided Structure": 523,
+        "Temporary Structure": 930
+      },
+      "sha256": "f5f5f02a029fb6a2fcd246aaa22fd87bd055e1a74faaa0c434b4e263a794db77"
+    },
+    {
+      "station_code": "NGP",
+      "queried_features": 411,
+      "feature_types": {
+        "Open-sided Structure": 57,
+        "Tower": 261,
+        "Temporary Structure": 92,
+        "Podium": 1
+      },
+      "sha256": "46170f9d82fd55ad8b43d618bed863b4f03b3bf6a15b255f26dbb5433f5fe6cb"
+    },
+    {
+      "station_code": "PEN",
+      "queried_features": 1362,
+      "feature_types": {
+        "Temporary Structure": 191,
+        "Tower": 1113,
+        "Open-sided Structure": 52,
+        "Podium": 6
+      },
+      "sha256": "e4d2d78d517e4dd18f73f791848b4393c7d212ea07d073296c9470c89544d560"
+    },
+    {
+      "station_code": "PLC",
+      "queried_features": 859,
+      "feature_types": {
+        "Tower": 669,
+        "Open-sided Structure": 131,
+        "Temporary Structure": 57,
+        "Podium": 2
+      },
+      "sha256": "0e5dfea393b842c56147ca35439c9844a7783dd0a05584e515d1be180cc8e16a"
+    },
+    {
+      "station_code": "SE1",
+      "queried_features": 767,
+      "feature_types": {
+        "Tower": 536,
+        "Podium": 142,
+        "Open-sided Structure": 43,
+        "Temporary Structure": 46
+      },
+      "sha256": "618bd3ace04d49e4ede41a706745a07498fa69de4f2acd977150195bbbc10d8e"
+    },
+    {
+      "station_code": "SEK",
+      "queried_features": 5886,
+      "feature_types": {
+        "Tower": 3066,
+        "Open-sided Structure": 1219,
+        "Temporary Structure": 1601
+      },
+      "sha256": "432c151421044f22611a4e439b54c2a2bd9121c52352e9a87413d9416f72bd9a"
+    },
+    {
+      "station_code": "SHA",
+      "queried_features": 1852,
+      "feature_types": {
+        "Tower": 1263,
+        "Open-sided Structure": 392,
+        "Temporary Structure": 171,
+        "Podium": 26
+      },
+      "sha256": "2bc4f034c7199c1f1d3bd8550e858d6eff07a363f8765d7b6d3427ba4cdf7ae1"
+    },
+    {
+      "station_code": "SKG",
+      "queried_features": 2255,
+      "feature_types": {
+        "Tower": 1842,
+        "Open-sided Structure": 217,
+        "Temporary Structure": 180,
+        "Podium": 16
+      },
+      "sha256": "eb9cb74596bc6305e23c8ce072241c1a6b519ddfd5fc5a4fa91808902b563d8f"
+    },
+    {
+      "station_code": "SKW",
+      "queried_features": 1426,
+      "feature_types": {
+        "Tower": 975,
+        "Open-sided Structure": 187,
+        "Temporary Structure": 179,
+        "Podium": 85
+      },
+      "sha256": "51df5356d9c7c70f29ddd68c8baab6774bffe129ab29f51399b582555ef3d778"
+    },
+    {
+      "station_code": "SSH",
+      "queried_features": 5190,
+      "feature_types": {
+        "Open-sided Structure": 838,
+        "Tower": 2571,
+        "Temporary Structure": 1775,
+        "Podium": 6
+      },
+      "sha256": "41a2a98344312629deffcc0c7003c788af537a5db307085a9e2d9aa3bae379b2"
+    },
+    {
+      "station_code": "SSP",
+      "queried_features": 1061,
+      "feature_types": {
+        "Open-sided Structure": 167,
+        "Temporary Structure": 136,
+        "Tower": 685,
+        "Podium": 73
+      },
+      "sha256": "d9f52da61a4f4922987fc58afdfad89c15fd2d01580ed8901cc6f978eb6be356"
+    },
+    {
+      "station_code": "STY",
+      "queried_features": 1333,
+      "feature_types": {
+        "Tower": 949,
+        "Podium": 163,
+        "Open-sided Structure": 146,
+        "Temporary Structure": 75
+      },
+      "sha256": "d1be63b99faf8d01bc49efb79cdd4f7d7d7f20ef88ec73c08db5ef19bb90e7ec"
+    },
+    {
+      "station_code": "TC",
+      "queried_features": 303,
+      "feature_types": {
+        "Tower": 172,
+        "Temporary Structure": 96,
+        "Open-sided Structure": 35
+      },
+      "sha256": "2112bfc391a71fff4035f308f8d00f9979ebf43a9898ca8d87cb1a6c4f44869f"
+    },
+    {
+      "station_code": "TKL",
+      "queried_features": 4119,
+      "feature_types": {
+        "Temporary Structure": 1886,
+        "Tower": 1537,
+        "Open-sided Structure": 695,
+        "Podium": 1
+      },
+      "sha256": "9604fe153fe2db82094be62e689ace357370a01018c9e10b5064462a0a165548"
+    },
+    {
+      "station_code": "TMS",
+      "queried_features": 50,
+      "feature_types": {
+        "Tower": 47,
+        "Open-sided Structure": 2,
+        "Podium": 1
+      },
+      "sha256": "454cb046b965e8e0efe42e7008d46246a496495079fe2dca4def44e73cf8104d"
+    },
+    {
+      "station_code": "TU1",
+      "queried_features": 1547,
+      "feature_types": {
+        "Tower": 1029,
+        "Open-sided Structure": 201,
+        "Podium": 55,
+        "Temporary Structure": 262
+      },
+      "sha256": "35b505c9a8995ea39a4d35204a919464076d2ab3b418b28b3376b53ec6152e30"
+    },
+    {
+      "station_code": "TW",
+      "queried_features": 3695,
+      "feature_types": {
+        "Temporary Structure": 467,
+        "Tower": 2785,
+        "Open-sided Structure": 342,
+        "Podium": 101
+      },
+      "sha256": "d20a7558c623ff579d76de533f079c95a225aaa67c5acece753a73fb69957194"
+    },
+    {
+      "station_code": "TWN",
+      "queried_features": 1076,
+      "feature_types": {
+        "Tower": 464,
+        "Open-sided Structure": 218,
+        "Temporary Structure": 358,
+        "Podium": 36
+      },
+      "sha256": "330c0765f48260d60bda3ff4d9b04844b516655f3c7e4cbcf0f6d7dbb752bdaf"
+    },
+    {
+      "station_code": "TY1",
+      "queried_features": 855,
+      "feature_types": {
+        "Tower": 599,
+        "Open-sided Structure": 145,
+        "Podium": 27,
+        "Temporary Structure": 84
+      },
+      "sha256": "f153c82c4557f1289bf55f47047cb1bd14bcc6be4b6d5fe3c628ceed126c72ac"
+    },
+    {
+      "station_code": "WGL",
+      "queried_features": 18,
+      "feature_types": {
+        "Tower": 18
+      },
+      "sha256": "aaeafd0ab625bd26b6998a541f86f33d92840daef138cb371cf8e40c8b0fd38b"
+    },
+    {
+      "station_code": "WLP",
+      "queried_features": 938,
+      "feature_types": {
+        "Temporary Structure": 191,
+        "Tower": 569,
+        "Open-sided Structure": 119,
+        "Podium": 59
+      },
+      "sha256": "4d51b261574b1274ff77e6e0aabdc86011f781938cf28af10e253517cf2850f9"
+    },
+    {
+      "station_code": "WTS",
+      "queried_features": 1826,
+      "feature_types": {
+        "Tower": 1482,
+        "Open-sided Structure": 87,
+        "Podium": 166,
+        "Temporary Structure": 91
+      },
+      "sha256": "b2376664fbaa6b6dd10d14d231e10957808c2cf71a00cef1cd3befe6ca941cd9"
+    },
+    {
+      "station_code": "YCT",
+      "queried_features": 1591,
+      "feature_types": {
+        "Tower": 1184,
+        "Open-sided Structure": 241,
+        "Temporary Structure": 134,
+        "Podium": 32
+      },
+      "sha256": "deb12ba9362001f125b88f265acf749acd2a2990c227be7b3ac090fa34baa135"
+    },
+    {
+      "station_code": "YLP",
+      "queried_features": 6463,
+      "feature_types": {
+        "Tower": 4043,
+        "Temporary Structure": 1535,
+        "Open-sided Structure": 706,
+        "Podium": 179
+      },
+      "sha256": "8c98e7029942569b83b3a2723e75a731402a9f7b6c3b450000d8142af61b2216"
+    },
+    {
+      "station_code": "HKA",
+      "queried_features": 74,
+      "feature_types": {
+        "Temporary Structure": 8,
+        "Tower": 63,
+        "Open-sided Structure": 3
+      },
+      "sha256": "322be90b16f1d4b7cefdc0889f5dba2d4229986a78d7a0a87a5fd49dd9c2f4ac"
+    },
+    {
+      "station_code": "HKO",
+      "queried_features": 3028,
+      "feature_types": {
+        "Tower": 2379,
+        "Podium": 490,
+        "Open-sided Structure": 104,
+        "Temporary Structure": 55
+      },
+      "sha256": "9d9511986564b3cbc180933f414a395c3ee0cf4b1da2a35b460763772ce19d79"
+    },
+    {
+      "station_code": "TPO",
+      "queried_features": 1320,
+      "feature_types": {
+        "Tower": 998,
+        "Open-sided Structure": 178,
+        "Temporary Structure": 120,
+        "Podium": 24
+      },
+      "sha256": "df1699f187ecccc4e385a2668301d310f75e4bdb668d997985c487ec39d4b7d1"
+    }
+  ],
+  "height_raster_resolution_m": 2,
+  "height_intensity_numerical_method": "2 m centre-sampled raster; paint polygons in ascending height order, take sum(height * 4 m2) divided by land area. Footprint coverage itself uses vector union area."
+}

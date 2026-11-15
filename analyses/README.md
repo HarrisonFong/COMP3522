@@ -30,6 +30,17 @@ rainfall procedure reads the existing database without saving raw observations.
 Its requested research CSVs and plots are aggregate outputs in
 `01_rainfall/results/`.
 
+## Geographic-factor research report
+
+[HKO reference, local temperature offsets and geographic factors](14_geographic_factors_report/README.md)
+collects the formal report, figures, summary results and analysis source. It
+compares all 32 temperature stations with the 29 low-elevation stations and
+retains the earlier Temperature/Rainfall analysis as supporting material.
+Start with the [findings](14_geographic_factors_report/FINDINGS.md) or the
+[figure and model guide](14_geographic_factors_report/FIGURE_GUIDE.md).
+The documented summary-only rebuild needs no database access; full model
+retraining requires the original observations and GIS inputs.
+
 ## Task 1 sequence
 
 Task 2 (RQ8–RQ9, external-model comparison) has an initial

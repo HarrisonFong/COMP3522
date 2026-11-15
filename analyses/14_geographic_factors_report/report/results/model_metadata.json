@@ -1,0 +1,39 @@
+{
+  "python": "3.14.6",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "sklearn": "1.9.1",
+  "targets": [
+    "Tmax",
+    "Tmin",
+    "rain_event",
+    "rain_amount"
+  ],
+  "created": "2026-11-14T18:06:16.767091",
+  "primary_context": "forecast level/category and lead only, no season or issue-time observed future weather",
+  "geographic_groups": {
+    "elevation": [
+      "elevation_m"
+    ],
+    "coast": [
+      "log_coast_km"
+    ],
+    "urban": [
+      "restricted_fraction_500m"
+    ],
+    "terrain": [
+      "slope_deg",
+      "tpi_z_500m",
+      "relief_500m"
+    ]
+  },
+  "source_sha256": {
+    "C:\\Users\\Sena\\Documents\\ChatGPT\\Project FYP - demo\\analysis\\initial-reliability\\all-data\\forecasts.csv": "67eb1d32230b731690250a97c519ee45165fd6be6bb13c9e41c41c19a82e5c72",
+    "C:\\Users\\Sena\\Documents\\ChatGPT\\Project FYP - demo\\analysis\\initial-reliability\\all-data\\observations.csv": "1a754e1ceeed4de705109db7e1b9467f435b77f8173b4d7d022e8736a1fc1a76",
+    "C:\\Users\\Sena\\Documents\\ChatGPT\\Project FYP - demo\\analysis\\initial-reliability\\all-data\\series.csv": "426f67f24ec8c9ffce001787064f885e8397a824c859877a228f99319f4768fa",
+    "C:\\Users\\Sena\\Documents\\ChatGPT\\Project FYP - demo\\geographical-research\\analyses\\11_geographic_factors\\results\\station_factors.csv": "02081eee4f27a4732fedc8c5290924412ddaca130b8305eb208e572417b0617c"
+  },
+  "last_run_targets": [
+    "rain_amount"
+  ]
+}

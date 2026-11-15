@@ -1,0 +1,758 @@
+{
+  "format": 1,
+  "scope": "review package; LF text; raw observations and credentials excluded",
+  "files": {
+    ".gitattributes": {
+      "sha256": "23302dd90b8bb74b44d365fafef8df20f809b61cb347023951ecf60a88a29651",
+      "bytes": 32
+    },
+    "FIGURE_GUIDE.md": {
+      "sha256": "26a7aee43ed0a939bb458a9323d307429708261bc772927468f741f5862687a8",
+      "bytes": 3972
+    },
+    "FINDINGS.md": {
+      "sha256": "2249c0c87fe6ef5104b7751a5b5b4af3b2616342f24120bd3618722ce6e096f1",
+      "bytes": 5821
+    },
+    "README.md": {
+      "sha256": "ad10cd46437a9873c3ee06dbd9af22e9a0fc2b8b850cc33f715216ead7fd4c2c",
+      "bytes": 5622
+    },
+    "rebuild_report.py": {
+      "sha256": "be2c85ed3fb2d6dc5e85a4243cd2cc1f71f448ef16c89715834db0f1e0c7ceb9",
+      "bytes": 2666
+    },
+    "reference/legacy_hko_offsets/method_selection.csv": {
+      "sha256": "7e500bc24bfa07efdf10c101e9f62b4cde2cc3fb4027f6f2f48d6b7ec324ecda",
+      "bytes": 688
+    },
+    "reference/legacy_hko_offsets/overview_2025.csv": {
+      "sha256": "8ff7e6e379cf5b907b36805a5cb22d68e561ec46ec0a3c6a5dd8e8576d275af8",
+      "bytes": 1710
+    },
+    "reference/legacy_hko_offsets/training_offsets.csv": {
+      "sha256": "2fa0fb5d36b1553d0f5a8db3fa6112cdd21be61d393616bb4686fa7109ac26e3",
+      "bytes": 193226
+    },
+    "report/deepening/figures/01_elevation_scatter.png": {
+      "sha256": "9951732054eec5fa25fdc1bd16594f6eb6157dff4976e1e1bdcf21987e724a82",
+      "bytes": 204472
+    },
+    "report/deepening/figures/02_lowland_bins.png": {
+      "sha256": "1dae28e31b2fe03de31ba4e565942b6b2da16bd3b174699de3e7104becc9fc8c",
+      "bytes": 60150
+    },
+    "report/deepening/figures/03_mountain_coast.png": {
+      "sha256": "a887b9d7d4ec8c37408709b03d61caf06f18d0e5f615f0ea1c7f8738c8008b7f",
+      "bytes": 51590
+    },
+    "report/deepening/figures/04_urban_definition.png": {
+      "sha256": "6844d7daec43ec566f8641555e5f7123d332be398ed4ee5db628f95b4d0241aa",
+      "bytes": 58860
+    },
+    "report/deepening/figures/05_factor_correlations.png": {
+      "sha256": "ea31c793e2f280512a5745d1f3643e2b39cb9c488276ec0b9335701692124e04",
+      "bytes": 276080
+    },
+    "report/deepening/figures/06_joint_region.png": {
+      "sha256": "ea8d1a36a9f3574d51862a273f534440e64fe38849bb3bbd829c699e25dc044a",
+      "bytes": 70985
+    },
+    "report/deepening/figures/13_01_altitude.png": {
+      "sha256": "5f645a2662d98119b9d1d35bbac64359f0a19ee3c7d16a19a7e3d64e44e83d9b",
+      "bytes": 170432
+    },
+    "report/deepening/figures/13_02_lowland.png": {
+      "sha256": "cefb36cdd63d8604092361d6f8daa989b576f6d7e9e59880e1b94cb6436b1104",
+      "bytes": 56075
+    },
+    "report/deepening/figures/13_03_raw_coast.png": {
+      "sha256": "7543d6170136cdd8917f3df199371a94f18310f1a669d4e27f3e24b73a519821",
+      "bytes": 38418
+    },
+    "report/deepening/figures/13_04_offset_effect.png": {
+      "sha256": "cbfc756773f758890687e93e217340254e65b1f7a0096db070f131f545a74eb3",
+      "bytes": 54194
+    },
+    "report/deepening/figures/13_05_adjusted_coast.png": {
+      "sha256": "af53b101cfe4e3cf3c95c846142cc71e5fad5677ea00f3b17c15970c62dcc0b6",
+      "bytes": 49722
+    },
+    "report/deepening/figures/13_06_geo_after_offset.png": {
+      "sha256": "957c7601fc7149d7ec78b51807e7307ef51515f71f72dba2a4aeb0bd06a7618e",
+      "bytes": 75383
+    },
+    "report/deepening/figures/14_coast_linear.png": {
+      "sha256": "96d4c2f843b95643eba0bbc9e184c5a5c984b289ef8147407a9d3e496b40ca28",
+      "bytes": 282171
+    },
+    "report/deepening/figures/14_factor_correlation.png": {
+      "sha256": "ca42c12c6eecbe046f3ab9ab60b51c06866fcb9466d068064820f414623d077a",
+      "bytes": 196823
+    },
+    "report/deepening/figures/14_ml_factor_drop.png": {
+      "sha256": "9b0837906ab9d88c2f95a05bf98270e8c0b7dc24dc7226c6d79f71c7095113ec",
+      "bytes": 60824
+    },
+    "report/deepening/figures/14_ml_methods.png": {
+      "sha256": "a8e1fe99beffc5155af987018f0f0b2326313e35318c8d83dffef7b9e43cd7ea",
+      "bytes": 181151
+    },
+    "report/deepening/figures/14_urban_contrasts.png": {
+      "sha256": "34ae2708cb83cdde038c71b58cfb0f5e923c053ef48fb4b34693a2a2f51bd5c9",
+      "bytes": 76791
+    },
+    "report/deepening/figures/14_urban_counts.png": {
+      "sha256": "424b7e3d6939d79c236fed95d208500659fd1cb5f1a12fc3a992f61c7710287b",
+      "bytes": 42608
+    },
+    "report/deepening/index.html": {
+      "sha256": "cd8a251badad522ee075df2606bf9a6934b1ed502b7daf3d60c992ac36bc5613",
+      "bytes": 1763869
+    },
+    "report/deepening/qa/browser_verification.json": {
+      "sha256": "9090247d9510592a64b9d3d467e3ff7425a67f3b755d46a7a52a59ebf5f881d5",
+      "bytes": 414
+    },
+    "report/deepening/qa/comparison_section.png": {
+      "sha256": "4a3faba2f699d11c67cb4d09e702e1e33df0ed201cf27d21c4a1de4f1fbffc2e",
+      "bytes": 171079
+    },
+    "report/deepening/qa/completion_audit.json": {
+      "sha256": "4fdb8a4aa65533db615fda52522b0d34313a3f793f382393e5778702b0909a14",
+      "bytes": 4805
+    },
+    "report/deepening/qa/desktop_top.png": {
+      "sha256": "1c50259005de0b101a26b254a1f007f9d8d74fdbc207636fe201c8da46ed5c0c",
+      "bytes": 116232
+    },
+    "report/deepening/qa/hko_offset/browser_verification.json": {
+      "sha256": "e1b9c542b180106fa27b1cfa831dcf6fe75d7a2991ce896cca5adf4c6172a95c",
+      "bytes": 1637
+    },
+    "report/deepening/qa/hko_offset/coast_figure.png": {
+      "sha256": "24bde24d0f6352dc34a5e759e45d37013fa6bd1da19e7f9e10990ee38e9b671d",
+      "bytes": 50817
+    },
+    "report/deepening/qa/hko_offset/continuous_coast.png": {
+      "sha256": "ba07bacc15be829094114d973b3c13cdccfb2dd2682a71109e7efa720b1c832d",
+      "bytes": 164069
+    },
+    "report/deepening/qa/hko_offset/correlation.png": {
+      "sha256": "7910d2b47d777c85e08332e068e419b884748852623d7d15d0ebb365a7679a05",
+      "bytes": 99687
+    },
+    "report/deepening/qa/hko_offset/desktop_top.png": {
+      "sha256": "17adc8b7e010c1642ce556dc2c58b69cab0462494b93f0e5c80dfc4d3e92aaf2",
+      "bytes": 151602
+    },
+    "report/deepening/qa/hko_offset/ml_methods.png": {
+      "sha256": "75c7537071066bee1514ad814b87625199d7f2ec896e2ad5cf75535e9a7f4178",
+      "bytes": 99972
+    },
+    "report/deepening/qa/hko_offset/mobile_top.png": {
+      "sha256": "f24ff95ccf1935185c1f245f87462e6ba73852942b97bb006c37ed51916efa1d",
+      "bytes": 56130
+    },
+    "report/deepening/qa/hko_offset/offset_figure.png": {
+      "sha256": "b637917bbf4053344b45f4f4fb327e6f43c9c061eaee38e5e55711f84effe478",
+      "bytes": 47521
+    },
+    "report/deepening/qa/hko_offset/reference_section.png": {
+      "sha256": "c58fb8fddc248125afa86f3b1868e07a2d84f3afc8cf93fb2f663bd748122b4b",
+      "bytes": 129512
+    },
+    "report/deepening/qa/hko_offset/urban_contrasts.png": {
+      "sha256": "dcf9df9a2ac7c1bb29c2ff85f6e9f642e771195d559a08f5521cbcddf5d447e7",
+      "bytes": 54552
+    },
+    "report/deepening/qa/hko_offset/urban_counts.png": {
+      "sha256": "0fbca65f948755b5cc9de1291536e0162a7278aa3250c855820a924fdd3f7727",
+      "bytes": 40250
+    },
+    "report/deepening/qa/hko_offset/urban_definition.png": {
+      "sha256": "b71a3e460d308a75d8193c014af6bdad302a83b78b829109f64fa15979de4bf8",
+      "bytes": 201277
+    },
+    "report/deepening/qa/mobile_top.png": {
+      "sha256": "96a7391cf21ad938563f886f6c88f4d546e1de3e2607a037bf99fdcd27aa6335",
+      "bytes": 61829
+    },
+    "report/deepening/qa/urban_section.png": {
+      "sha256": "2356d8cfa5e8bdfe1fe1e9a6019170f4fae278249fa62201bfe07e557d8e4c5d",
+      "bytes": 321484
+    },
+    "report/deepening/results/building_region_specification.json": {
+      "sha256": "6f3c89cbf61489703d7005096d7baa5a3fa9d5b7ed7ef930f30f7fe5de91468a",
+      "bytes": 13691
+    },
+    "report/deepening/results/date_adjusted_regressions.csv": {
+      "sha256": "c18a174a163bfbb030b9c2b1ef67b63b5aba334c90696408f9d6f943b9920a70",
+      "bytes": 58251
+    },
+    "report/deepening/results/definitions.json": {
+      "sha256": "bc63e33cc57bdb86eb0eb3f36dd5ba254603f236ab10f4e844b3f5b54acaf065",
+      "bytes": 1773
+    },
+    "report/deepening/results/factor_correlations.csv": {
+      "sha256": "d0bcd9d1859c2b290d28d92ef734929351aeefa484c2b4a3471a1e66990828c2",
+      "bytes": 33397
+    },
+    "report/deepening/results/geography_specification.json": {
+      "sha256": "e12b99d30bc1eefee549d8376bfd70392ca88c51137ba473c21599cef6022215",
+      "bytes": 1770
+    },
+    "report/deepening/results/group_means.csv": {
+      "sha256": "7deed4c1bb2b0e783a331d39699a3907ed4fc8eb6cd21407b5412dd957705649",
+      "bytes": 76536
+    },
+    "report/deepening/results/hko_offset/adjusted_geo_regressions.csv": {
+      "sha256": "e3eeb4c36800d93bdff188464b46d8b4870700c557c06840c8a2119423beb12e",
+      "bytes": 19573
+    },
+    "report/deepening/results/hko_offset/benefits.csv": {
+      "sha256": "d73bf48482e06f320ac20d2c1ccc6681d116fd5c1a7b497d74c2b317d769d124",
+      "bytes": 2033
+    },
+    "report/deepening/results/hko_offset/coast_contrasts.csv": {
+      "sha256": "4d64fbf24d4339d1beeb37e0fe9d0f1b968b111a7d983c6309d3b2b4d35581dd",
+      "bytes": 10004
+    },
+    "report/deepening/results/hko_offset/continuous_coast_date_regressions.csv": {
+      "sha256": "2d15b27b3ce03c3d3d977e56d7761080aa9bda3f847fe6c895d0490d91107789",
+      "bytes": 24532
+    },
+    "report/deepening/results/hko_offset/continuous_coast_leave_one_station_out.csv": {
+      "sha256": "abab4be31617d86a7e88e78e13d24e3782d02b86296723a2deeb5589dfda7e4c",
+      "bytes": 14691
+    },
+    "report/deepening/results/hko_offset/continuous_coast_metadata.json": {
+      "sha256": "4c96a38e437ffffa9a49d16fbeb0e0d0ae50f61200fce4cd2928c85be0bfc668",
+      "bytes": 1495
+    },
+    "report/deepening/results/hko_offset/continuous_coast_site_regressions.csv": {
+      "sha256": "a3352772027cd7321756392bb1cd1b7a9a3c00af2ae11fca5cc78d7ff2820ab1",
+      "bytes": 2490
+    },
+    "report/deepening/results/hko_offset/continuous_coast_station_points.csv": {
+      "sha256": "404a60eb072b79e41cf76ef0653499959f696f8c7ec286000cf7d64d1ef74ddd",
+      "bytes": 15931
+    },
+    "report/deepening/results/hko_offset/continuous_coast_strict_common_sensitivity.csv": {
+      "sha256": "00aedb94b293b4a4e4c5f4a366f440fb31d6a903065beb0b3d9325c118f93cd1",
+      "bytes": 511
+    },
+    "report/deepening/results/hko_offset/continuous_coast_verification_models.csv": {
+      "sha256": "c870c3b137c2b7aa2beca4aab874109020a4533a22386146c955f14d3f75a193",
+      "bytes": 1299
+    },
+    "report/deepening/results/hko_offset/elevation_groups_2025.csv": {
+      "sha256": "0c783a1b8ac47ab4dca53fdd459e58047cd44d0a95b9dbe21d13f645193e6ec7",
+      "bytes": 2263
+    },
+    "report/deepening/results/hko_offset/hko_same_date_reference.csv": {
+      "sha256": "d26fcf00b611af58b4118feb874854a152ee53b015b139ac940671365b689c27",
+      "bytes": 6951
+    },
+    "report/deepening/results/hko_offset/metadata.json": {
+      "sha256": "62efe9007ea004fc8b47fe88177339b8af4687391f497146f37643a9ee4f34cc",
+      "bytes": 2721
+    },
+    "report/deepening/results/hko_offset/reproduction.csv": {
+      "sha256": "0d38c48e0968485dd1aa4cb4c295cf5d6421f0b585744bfcccf30a268f8b7719",
+      "bytes": 685
+    },
+    "report/deepening/results/hko_offset/restored_ml_display_scores.csv": {
+      "sha256": "e667d2c0e615b27fd7c82e11ad4b9ad90bf25b6b777437547dace92ea584f561",
+      "bytes": 1000
+    },
+    "report/deepening/results/hko_offset/restored_ml_verification.json": {
+      "sha256": "570d7bb7d78378dd5716f836403e985acadf4922085a4264fc9c2dc93ed97e29",
+      "bytes": 692
+    },
+    "report/deepening/results/hko_offset/restored_ml_vs_hko.csv": {
+      "sha256": "24ce027f552ba2a00fa79bb94f0f7eaeda78dc9df1ba790d573b7a90679cbba1",
+      "bytes": 2975
+    },
+    "report/deepening/results/hko_offset/station_definitions.csv": {
+      "sha256": "3612288618a25da75d1ebbd4804e04c022b1af290aec142f554de25bc0116871",
+      "bytes": 38953
+    },
+    "report/deepening/results/hko_offset/station_outcomes.csv": {
+      "sha256": "6c8ea477fe58888ab6e872766337f0ea2c8df5b57bdb1900ea2ceb2aee3809cd",
+      "bytes": 22920
+    },
+    "report/deepening/results/hko_offset/test_scores.csv": {
+      "sha256": "317983c0a0abec103435e724ef388b6facb15da24f57e5fffd530b735974fbf6",
+      "bytes": 2400
+    },
+    "report/deepening/results/hko_offset/training_offsets.csv": {
+      "sha256": "d22428cd76215366d25d2bfa2b2137bcf0fb3f7c7614af37463fbc5ff252d1e6",
+      "bytes": 197716
+    },
+    "report/deepening/results/hko_offset/validation_by_year.csv": {
+      "sha256": "9efff2194e4173f92befcf4421823a41af918b5437d40dc60c5f85b35ed63bac",
+      "bytes": 4766
+    },
+    "report/deepening/results/hko_offset/validation_selection.csv": {
+      "sha256": "4cb83547623f7c5821b7cfb048c5139bee6f4ef9ab9121964458fee41fc47794",
+      "bytes": 1327
+    },
+    "report/deepening/results/hko_offset/verification.json": {
+      "sha256": "72edbcd744a13c5ea7ef99e57f87775497d2a61d323fcb81f54ce95db749ef37",
+      "bytes": 672
+    },
+    "report/deepening/results/matched_contrasts.csv": {
+      "sha256": "f8fe42993893f0864046816930d19abfdf267da9dcb12f252754e6b12650ac40",
+      "bytes": 15985
+    },
+    "report/deepening/results/metadata.json": {
+      "sha256": "5c0c67f9bb7adc4afdffb630da42816c7929f1c0b1053d3c8dc1828bfb8df506",
+      "bytes": 1192
+    },
+    "report/deepening/results/mountain_influence.csv": {
+      "sha256": "50c4efbf8cacdabd30e4ec72f1b9aa245e306147c6331d221d162450a37d587f",
+      "bytes": 949
+    },
+    "report/deepening/results/old_coast_reconciliation.csv": {
+      "sha256": "eea5cf4f531ecff064326e9f0212f5d393c84b493b33a4ed59ad77d7c546191f",
+      "bytes": 394
+    },
+    "report/deepening/results/outcome_correlations.csv": {
+      "sha256": "a34e95e85241d2064557a845a6cf88440edb5f8e7ba9134428a87b1c5d109331",
+      "bytes": 43226
+    },
+    "report/deepening/results/previous_model_sensitivity.csv": {
+      "sha256": "82284fd643e5114deaf16f62aaf664a11a14813bed7791d29c0468c5ce086d83",
+      "bytes": 15551
+    },
+    "report/deepening/results/region_factor_cross_counts.csv": {
+      "sha256": "a35048f6f3c3fac9e18514485f8e0959d98c3aa9d57f2aba2a6983d3559da7cf",
+      "bytes": 12326
+    },
+    "report/deepening/results/sample_summary.csv": {
+      "sha256": "1228185eeb879a70f267a0b9df56ac795ef0b1c916c06aec806de142d1a45d19",
+      "bytes": 2169
+    },
+    "report/deepening/results/station_definitions.csv": {
+      "sha256": "4650df074cc8c715ab6cba2ccf6cecfd2afec1fdceb0966d31712748dc9db55c",
+      "bytes": 38740
+    },
+    "report/deepening/results/station_outcomes.csv": {
+      "sha256": "b95df209780dfbd0b54792cbe0b3bd7baf624585c233e9c09a387ed45a1d2630",
+      "bytes": 10544
+    },
+    "report/deepening/results/verification.json": {
+      "sha256": "ec26fafc23ea8c7a15d691abe4fe87fa452c8667755df90676fcad0a759728c5",
+      "bytes": 422
+    },
+    "report/deepening/results/vif.csv": {
+      "sha256": "8f8621359c0677e3f85d8033f7f73bde18befbe0a6b0efacade8ac3a21aa55f4",
+      "bytes": 3386
+    },
+    "report/deepening/sources/github_all_station_findings.md": {
+      "sha256": "d044b9113fef098e75b9903ff88da64950ce3f84eb6ef37d197f2ca3054bebcf",
+      "bytes": 12846
+    },
+    "report/deepening/sources/github_general_forecast_readme.md": {
+      "sha256": "0dd133b2786c0f16ba435b329265bbc30418bf997a82cab4892127d4bbe86e10",
+      "bytes": 4239
+    },
+    "report/deepening/sources/github_manifest.json": {
+      "sha256": "f06d93ff19546168dc2640ac727ff09addeedfbb49a4fb2aa9788cccdbf08f2d",
+      "bytes": 793
+    },
+    "report/deepening/sources/github_rq7_findings.md": {
+      "sha256": "bd9309583baa4739bb3900043c8201b483bb1a7fb533a3c0904959a49c1175ba",
+      "bytes": 9457
+    },
+    "report/deepening/sources/hko_reference_sources.json": {
+      "sha256": "395e755c1ab7a7769af24e658f5a9ea4f4e65b79a8d4e79473836b74df3f9c47",
+      "bytes": 449
+    },
+    "report/deepening/technical_appendix.html": {
+      "sha256": "678072fc2b66f6557486feb2a6c4f27ac0e7e316a8d84e6750f7daf365098b0d",
+      "bytes": 1076789
+    },
+    "report/figures/01_station_factors.png": {
+      "sha256": "06ee407baf1b341b746840df1e88494e1746e11d422b8c3b19515ad22dfbce07",
+      "bytes": 150838
+    },
+    "report/figures/02_raw_groups.png": {
+      "sha256": "2d8c1d224622b8782f4052f801481839f011de6ced718f66356bea63b28d4e1e",
+      "bytes": 55076
+    },
+    "report/figures/03_coast_matched.png": {
+      "sha256": "31ff2a5b74f0d11ecb6b0ca607eec89630039196eb85a8d5e9f9428f1f588126",
+      "bytes": 34604
+    },
+    "report/figures/04_temperature_models.png": {
+      "sha256": "f6c98fc2d725deac9ebcceb1d7fc1557a64d987ccdfcfed58c7c1ffda6d0e548",
+      "bytes": 82143
+    },
+    "report/figures/05_rain_amount.png": {
+      "sha256": "24d3793e2569eb9c1930cd5fecd21404a94950755a62fe42ce20c15cdaa65515",
+      "bytes": 54353
+    },
+    "report/figures/06_factor_increment.png": {
+      "sha256": "a8a58a75738e50b351d052e25f613f38ea29f7d73756092d4260d57bf7f316bb",
+      "bytes": 60699
+    },
+    "report/figures/07_rain_event.png": {
+      "sha256": "509eebeb21855ae8bcbab44c9906fc4fa1bb7640eaa55d62f92ca39869762ebd",
+      "bytes": 63214
+    },
+    "report/index.html": {
+      "sha256": "05a25651df1f493b17e69d3ed0d01575b7b2cd6da4f1a02197c012083a1d8198",
+      "bytes": 1056641
+    },
+    "report/qa/browser_verification.json": {
+      "sha256": "ac178e9419cf4111acd63884f2e603ecde2d70e3ba135d7ff4b8e9ad7731bd0d",
+      "bytes": 356
+    },
+    "report/qa/coast_figure.png": {
+      "sha256": "73cb45b69267aa8bc0470209d59d3ffead8e2de8aada7c97f11183a9d1c8c396",
+      "bytes": 45291
+    },
+    "report/qa/completion_audit.json": {
+      "sha256": "78e4452ae4a28c1c84172b18d268c4a8c07d69c92016272b0a643e0a844424b1",
+      "bytes": 8387
+    },
+    "report/qa/desktop_top.png": {
+      "sha256": "d40425301ab6a3dfd21112ad44fc04681c9b5f1f2e52eb447c95b75a4cef337a",
+      "bytes": 131904
+    },
+    "report/qa/interactive.png": {
+      "sha256": "a0ea24678c01865e789c9fd9a5755034266e0520ac3053a71e9cc1fe03e95274",
+      "bytes": 47231
+    },
+    "report/qa/mobile_interactive.png": {
+      "sha256": "ea0d334ec41d80b052745e85dc523294ee8bd8abd86c14066839175d95ed448f",
+      "bytes": 41466
+    },
+    "report/qa/mobile_top.png": {
+      "sha256": "29f02823ee4232cb7971e12a61a2f39bbafe3aa6b3f08a98139d64ffe07b680b",
+      "bytes": 57986
+    },
+    "report/qa/model_figure.png": {
+      "sha256": "d39d8a4ece264e58ec405f1c130c1f93ff771c6d6b28c125dec3ca7fd49da264",
+      "bytes": 65221
+    },
+    "report/results/all_method_validation.csv": {
+      "sha256": "01c83d528744cd89e5f9ee298078b5efc1d1a14e9bd118d6ef74b0039c705882",
+      "bytes": 2336
+    },
+    "report/results/coast_leave_one_station_out.csv": {
+      "sha256": "8ef90308ef36ce1ee008b5fb25c5d4b41e061d7c2c3e15ea6fe8d3fc59e20751",
+      "bytes": 1523
+    },
+    "report/results/coverage.csv": {
+      "sha256": "1cf01a837d9e43f123899d68384506626fa96044a3132c1e87f8d6690be40dfe",
+      "bytes": 127374
+    },
+    "report/results/empirical_fallback_usage.csv": {
+      "sha256": "6bf6562912f158924586813b264a756da25a8953daaf720fec689a62cce07dbf",
+      "bytes": 5588
+    },
+    "report/results/factor_drop_comparisons.csv": {
+      "sha256": "778dde02baf86f2a28afa8c5c1599f878d2928306009282690fe8591de8e90a6",
+      "bytes": 16231
+    },
+    "report/results/factor_spearman.csv": {
+      "sha256": "ed06a2e40825355acbd9c032e998d5f95bd2bab0ec9c04306a9679958400c59f",
+      "bytes": 789
+    },
+    "report/results/geographic_label_sensitivity_D3.csv": {
+      "sha256": "5140db021dd1ce9670442af6b88cb2617cf428684591d0bf18add0ae84246410",
+      "bytes": 12519
+    },
+    "report/results/geographic_matched_contrasts_D3.csv": {
+      "sha256": "53e4010910876d785dadcb168e90a6e0006cf56da41eb5770390139873ba2176",
+      "bytes": 7686
+    },
+    "report/results/geographic_means.csv": {
+      "sha256": "e9ab5ee087e7701fa910a3ae87dd0133469aae3544164244ac30c1d91f1ee779",
+      "bytes": 45605
+    },
+    "report/results/geographic_model_sensitivity.csv": {
+      "sha256": "82284fd643e5114deaf16f62aaf664a11a14813bed7791d29c0468c5ce086d83",
+      "bytes": 15551
+    },
+    "report/results/geographic_pair_support_D3.csv": {
+      "sha256": "b83adb05213a92694f9ca6fb79ab6bf97662f946cae19b82c3b63ce348537557",
+      "bytes": 118597
+    },
+    "report/results/geographic_strict_common_D3.csv": {
+      "sha256": "02f6f310669f5cefaedf5a7574081b75634810b784e39ff91a9ce0e9f6437f55",
+      "bytes": 2893
+    },
+    "report/results/geography_specification.json": {
+      "sha256": "e12b99d30bc1eefee549d8376bfd70392ca88c51137ba473c21599cef6022215",
+      "bytes": 1770
+    },
+    "report/results/group_station_counts.csv": {
+      "sha256": "e9337182f4a51a2ae3559096702c868495da4215769c3ae8974a9dc06fabd3f5",
+      "bytes": 2910
+    },
+    "report/results/independent_verification.json": {
+      "sha256": "93a82025be2fdef08ac4b95af379c3d5bb1e5aebde65c26219bb86fd1e5b764c",
+      "bytes": 78056
+    },
+    "report/results/lowland_matched_contrasts_D3.csv": {
+      "sha256": "99242eadb4fd4a0e2061fcd28061dabd7e2a3bf41cd9d7b3578224c3fa00018f",
+      "bytes": 4121
+    },
+    "report/results/lowland_verification.json": {
+      "sha256": "36c07255902ac75b33f4a29399ca965e23690925301f6ece2105874cd2d8e31f",
+      "bytes": 232
+    },
+    "report/results/method_by_geographic_group.csv": {
+      "sha256": "c18bae6b602dd686ffb09ed858bc90da9a36aeedc2c9b468c4f3a53a59249397",
+      "bytes": 144958
+    },
+    "report/results/method_intervals.csv": {
+      "sha256": "d6efc8f507976a196f4c37f78c4d15f5b7bc57b2c2a8b35b71683a779e58e1da",
+      "bytes": 28506
+    },
+    "report/results/method_metrics.csv": {
+      "sha256": "187cf8636396ca8985ef5755f786448e960ab41c188fa01e22c66a2f56c8b03d",
+      "bytes": 11923
+    },
+    "report/results/model_metadata.json": {
+      "sha256": "fbfebe5fdb1be5cc652c3b86fe9b28a2bd2c894cc2c03b02c09913866ab1e88b",
+      "bytes": 1427
+    },
+    "report/results/paired_method_differences.csv": {
+      "sha256": "3b40a311aeb5e61412da174ff248ab1b6c90f561ea4b84d4ff9a4bd09697a364",
+      "bytes": 113638
+    },
+    "report/results/rain_amount_primary_scores.csv": {
+      "sha256": "d2329d4106e84bfcb42af86bea082cdecfd31e2640c304c858ede14317f2f489",
+      "bytes": 1861
+    },
+    "report/results/rain_amount_selection.csv": {
+      "sha256": "342a1ec2b2728c8ff4dc7b4ddcf2e5a528ad16c393c8ca9c330d4cc81fa81fbf",
+      "bytes": 3598
+    },
+    "report/results/rain_amount_validation_grid.csv": {
+      "sha256": "138ca5422ebd276779d4d38173fdad64f6108a11ff2b786d176073a838cae4a7",
+      "bytes": 8973
+    },
+    "report/results/rain_event_primary_scores.csv": {
+      "sha256": "7c5c9123166190491d1d106ebf7a54dbf797ee950fe1292ee0b10a22a37dd234",
+      "bytes": 1308
+    },
+    "report/results/rain_event_selection.csv": {
+      "sha256": "b189f6d8a93f97d4aaedbc906e4d5f8df0dbcad9e16dc79255304e6c671063bc",
+      "bytes": 2385
+    },
+    "report/results/rain_event_threshold_metrics.csv": {
+      "sha256": "8e1164251f704a89251a06292663b231896fbdfb6c969afd16d9dab8139ee6e7",
+      "bytes": 12340
+    },
+    "report/results/rain_event_validation_grid.csv": {
+      "sha256": "ef691278063fece43e9615e67ed01bc10b9638a8a3a9b34c207cfeab29f192c6",
+      "bytes": 6377
+    },
+    "report/results/station_design.csv": {
+      "sha256": "014fb882c9fe37917450ad54b10952c37f09e645a4d0a97a7f44260920b9bb91",
+      "bytes": 36815
+    },
+    "report/results/station_factors.csv": {
+      "sha256": "189dc86ee68be65532bc791ec95bb9da9ac906bf2218ab6c00abf7eab4d13e37",
+      "bytes": 36738
+    },
+    "report/results/summary_verification.json": {
+      "sha256": "0337249c1be3e5cf425c71de3058f6b38f524af2a77fcd8e5b4efa521b6de5ac",
+      "bytes": 435
+    },
+    "report/results/terrain_provenance.json": {
+      "sha256": "d7bb9fea6a7b229a8cb21028782335e07966a4c83804a49c89948f672259e0ce",
+      "bytes": 2128
+    },
+    "report/results/terrain_verification.json": {
+      "sha256": "8c34c6e2e8f7f2e66a652e32e4c8af9654c18f0a346f47fa2a3b072cde9d2138",
+      "bytes": 601
+    },
+    "report/results/Tmax_primary_scores.csv": {
+      "sha256": "cdc62a356ebba05a49930d3f1c7f2e0f1b1dd4b03eaa7505b8ab445acac4b890",
+      "bytes": 1230
+    },
+    "report/results/Tmax_selection.csv": {
+      "sha256": "295dc6e69b2e7b15a7a48d74e495d576e69a626856b26fc345cb00b12f906b24",
+      "bytes": 2125
+    },
+    "report/results/Tmax_validation_grid.csv": {
+      "sha256": "b551b70af904cd7ce0cad4ecb63ba1c9ccddde8f35c789924934c5926d196d28",
+      "bytes": 6503
+    },
+    "report/results/Tmin_primary_scores.csv": {
+      "sha256": "270990de6f306c31358d95c9b34363940e2ca31a8849057d8673592ff07c475b",
+      "bytes": 1229
+    },
+    "report/results/Tmin_selection.csv": {
+      "sha256": "20ac5c77441fac44c8bf637a0c0e765f3932fa8f4a068dd4a58773f1d05b7e49",
+      "bytes": 2114
+    },
+    "report/results/Tmin_validation_grid.csv": {
+      "sha256": "3431128984bf538df958789d633087ddc284f21290e419ad6ebdfcbeaa926d72",
+      "bytes": 6500
+    },
+    "report/results/validation_recommendations.csv": {
+      "sha256": "41a01d87c5f173f26f13355f350bf0236dc48ba99a9a3f7b98f97bfbcf1aeec2",
+      "bytes": 446
+    },
+    "requirements-report.txt": {
+      "sha256": "49426e056f4caf87d18c4901ef0c2c534fb0f1a215b61f5d1d6d78247696776f",
+      "bytes": 186
+    },
+    "source/11_geographic_factors/add_amount_baselines.py": {
+      "sha256": "2a069ff0de8304ee11743da688f7217ba917870a0f409bac207b8b8bba7c3df1",
+      "bytes": 1564
+    },
+    "source/11_geographic_factors/analyze_geography.py": {
+      "sha256": "de5715324ddfe17d7df9c7fc8238cbfe7815165776fe6bdcf262c3cb75447b7c",
+      "bytes": 6017
+    },
+    "source/11_geographic_factors/build_report.py": {
+      "sha256": "fc4d9fa79d3ff76eae32816de15a14be1b9644e885586e3e2d636e2d8c3f6aa3",
+      "bytes": 42564
+    },
+    "source/11_geographic_factors/build_terrain.py": {
+      "sha256": "0b9256290a2174b12ecb5db64ed3fd13c4196cd132ef05d36544f71b952bab31",
+      "bytes": 5620
+    },
+    "source/11_geographic_factors/finalize_report.py": {
+      "sha256": "f8a9524dc3c74537dc2bedd3fca072d4fc77023c20db6a283d5d36fe02c5ff8f",
+      "bytes": 3598
+    },
+    "source/11_geographic_factors/lowland_contrasts.py": {
+      "sha256": "ce60ad48ce4d42f848693feb22ab15fc312e6d68262c79da604f0cc4121a51de",
+      "bytes": 1251
+    },
+    "source/11_geographic_factors/PLAN.md": {
+      "sha256": "5ec073c063e455d810f3b89e16e37c2f868b949c976ce30cdda57df9acdef2b9",
+      "bytes": 6860
+    },
+    "source/11_geographic_factors/qa_report.cjs": {
+      "sha256": "bf9d42f28ef67188d4c9b66decac2eb6e4ba1b252d08ed0017da56262cc2d1cf",
+      "bytes": 3577
+    },
+    "source/11_geographic_factors/README.md": {
+      "sha256": "dd6971cd799d7f255f025d491946d2bbce05228b6bb193dd50428a2175394945",
+      "bytes": 10152
+    },
+    "source/11_geographic_factors/run_models.py": {
+      "sha256": "d03cbfd3d1097d4a45928c48d520543086da057bdf8aa5c212fe430c15be4594",
+      "bytes": 13383
+    },
+    "source/11_geographic_factors/run_sensitivity.py": {
+      "sha256": "fd4c13dca37beff286838ec88f6ad59fc5ad316fd39b32f514e387ff24aecc63",
+      "bytes": 3951
+    },
+    "source/11_geographic_factors/summarize_results.py": {
+      "sha256": "98cc87aab9a32a065f08017edfe8b2984fbc4f3657db32af88be7db23ae86d95",
+      "bytes": 6705
+    },
+    "source/11_geographic_factors/verify_analysis.py": {
+      "sha256": "16678083fce8360e35aa794f5321042518451f3cfc551d724c4978c0f8970886",
+      "bytes": 11181
+    },
+    "source/11_geographic_factors/verify_lowland.py": {
+      "sha256": "9670298b890e042f86035e22c465eac1ac4077e1db4fbb90aebdc206e8264682",
+      "bytes": 1495
+    },
+    "source/11_geographic_factors/verify_summaries.py": {
+      "sha256": "7a36d13928574a9d0745f45beeeae917abae47156c13fc21c0136222dd476553",
+      "bytes": 3924
+    },
+    "source/11_geographic_factors/verify_terrain.py": {
+      "sha256": "b98212f25c80e9ca6073020c9fd8c78735312c174318b2069318510ff37326d8",
+      "bytes": 3862
+    },
+    "source/12_geographic_deepening/build_report.py": {
+      "sha256": "9815b19b1689939ae8b669bb6ce8eeb6244d86e5d2f78310274fd8ca6519c48e",
+      "bytes": 35133
+    },
+    "source/12_geographic_deepening/finalize_report.py": {
+      "sha256": "231db81d332bfa3547f7910266a16319bc321ad1d1551acc8f9002a7f4045851",
+      "bytes": 2946
+    },
+    "source/12_geographic_deepening/PLAN.md": {
+      "sha256": "bab122770a423241ae2652e6921fdc86854e45dbab94a318f0a44a0fd3bfcbbd",
+      "bytes": 3466
+    },
+    "source/12_geographic_deepening/qa_report.cjs": {
+      "sha256": "5a9b7303947a4a27d60832eb6e312bfd423791754eea421918884faf06da956c",
+      "bytes": 2743
+    },
+    "source/12_geographic_deepening/README.md": {
+      "sha256": "fdf7c03d996f25e78e79284ed4787b24ca2a9ef486ce8b4a437d473ed9d6294f",
+      "bytes": 10852
+    },
+    "source/12_geographic_deepening/run_deepening.py": {
+      "sha256": "d5acc610eada435566570b0f8fb6cafc6d793ceb985b71c08e10e8ace2340a50",
+      "bytes": 12689
+    },
+    "source/12_geographic_deepening/verify_deepening.py": {
+      "sha256": "b0252b2cbc952a6b24b76473d11f7ba588aff8d4483c318d242c7b109e64283e",
+      "bytes": 5566
+    },
+    "source/13_hko_offset_reframing/analyze_continuous_coast.py": {
+      "sha256": "1136a143a13cda09d80ec8c0a3a0421ca7290dd8ae1e73ea89a60638040d877b",
+      "bytes": 6957
+    },
+    "source/13_hko_offset_reframing/build_report.py": {
+      "sha256": "d253aaa3987b5c20aa6b9eaf2a776d68e8ca97b30fbae37c019557df9cd2ded1",
+      "bytes": 18873
+    },
+    "source/13_hko_offset_reframing/compare_existing_ml.py": {
+      "sha256": "1b36c6c0e2ccb7c2672f7fba845937aff7d074915f7f914ad57d4b8c0506f286",
+      "bytes": 2406
+    },
+    "source/13_hko_offset_reframing/qa_report.cjs": {
+      "sha256": "8f95924140df75ae0297f4444804c66a08976edb7647744fab4f192475e886c7",
+      "bytes": 4917
+    },
+    "source/13_hko_offset_reframing/README.md": {
+      "sha256": "d611e0b226ff12d043ee7a2d20315fcba60dc36abe576a24bd7e1d2ea82851ac",
+      "bytes": 5109
+    },
+    "source/13_hko_offset_reframing/reference_first_sections.html": {
+      "sha256": "ed65ac1bd904b077e71cd19040389e3504e06811ece8c4c4a72792da21418bd1",
+      "bytes": 7340
+    },
+    "source/13_hko_offset_reframing/report_body.html": {
+      "sha256": "84aaeb2558e06074180916261476ccc3cd71d46999b906986ebed8dda43bf90f",
+      "bytes": 20977
+    },
+    "source/13_hko_offset_reframing/report_extensions.py": {
+      "sha256": "e4fd545610d824794e07a2c21fa886f5d9336fee457c4e10b7a65581b2b183a4",
+      "bytes": 17899
+    },
+    "source/13_hko_offset_reframing/run_analysis.py": {
+      "sha256": "ce1d45796dd5c9b163413163aaace0ab7487ffa65b4966b672651523f1fd3c0e",
+      "bytes": 10207
+    },
+    "source/13_hko_offset_reframing/verify_analysis.py": {
+      "sha256": "ea4ba23cedd5a8d4b73c4ed7944ab170d61de908aa801c19cb8bccf92478b4ac",
+      "bytes": 6028
+    },
+    "SOURCE_SNAPSHOT_HASHES.json": {
+      "sha256": "5cca1adf94a09dda876b97551fe654144c856291498714823cb84c93ce97380b",
+      "bytes": 21794
+    },
+    "verification/package_scan.json": {
+      "sha256": "98d31cfe6b5f7ce600950e5b23e6ab02a9890d1ea75515c5a42663f183f65a38",
+      "bytes": 201
+    },
+    "verification/rebuild_check.json": {
+      "sha256": "63494af2f91613736700e8f5cea63c41e166e81814e7d931fb60b6f36d0317e2",
+      "bytes": 1381
+    },
+    "verify_package.py": {
+      "sha256": "7ba2beca3efbc9070b40431631f3787e7e7f1ec845c49f52b4fb7618bc6d243b",
+      "bytes": 2913
+    }
+  }
+}

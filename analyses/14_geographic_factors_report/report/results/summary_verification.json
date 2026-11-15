@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "method_cells": 262,
+  "subgroup_cells": 1326,
+  "geographic_contrasts": 60,
+  "sensitivity_rows": 65,
+  "threshold_rows": 66,
+  "scope": "Independent groupby metrics, subgroup losses, threshold confusion counts, all matched D3 geographic contrast point estimates and supports, and sensitivity prediction scores. Existing interval algorithms separately checked in primary verifier; not a new inferential model."
+}

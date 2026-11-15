@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "desktop": {
+    "images": true,
+    "overflow": false,
+    "banned": false,
+    "sections": 12
+  },
+  "mobile": {
+    "width": 390,
+    "documentWidth": 390,
+    "overflow": false
+  },
+  "captions": [
+    "圖 1｜2",
+    "圖 2｜2",
+    "圖 3｜2",
+    "圖 4｜2",
+    "圖 5｜2",
+    "圖 6｜2",
+    "圖 7｜相",
+    "圖 8｜2",
+    "圖 9｜六",
+    "圖 10｜",
+    "圖 11｜",
+    "圖 12｜"
+  ],
+  "missing_local_links": [],
+  "javascript_errors": [],
+  "parent_report_link": true,
+  "parent_navigation": true,
+  "appendix_clean": true,
+  "chapters": [
+    "同一份氣溫預報，為什麼在不同地點有不同表現？",
+    "先理解公共預報代表什麼，再比較不同地區",
+    "把歷史地方溫差加入預報，先檢驗是否有用",
+    "高站的誤差明顯較大，但低海拔內沒有相同趨勢",
+    "內陸與近海的差異仍然存在",
+    "校正解釋了部分差異，仍有剩餘部分",
+    "離海岸越遠，誤差是否逐漸增加？",
+    "城市化要先定義：土地用途、建築覆蓋與建築高度",
+    "ML 嘗試：地理資料能否帶來額外的預報改善？",
+    "把已完成的分析放入同一條解釋路徑",
+    "地方溫差解釋了部分誤差，地理差異仍然存在",
+    "支持上述結果的資料與方法"
+  ],
+  "section_order": [
+    "introduction",
+    "reference",
+    "offset",
+    "altitude",
+    "coast",
+    "geography",
+    "continuous",
+    "urban",
+    "ml",
+    "previous",
+    "conclusion",
+    "methods"
+  ],
+  "legacy_cohort_appendix_only": true,
+  "main_validation_cohorts": [
+    32,
+    29
+  ]
+}

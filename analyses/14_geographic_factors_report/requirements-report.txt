@@ -1,0 +1,5 @@
+# Direct dependencies tested with CPython 3.14.6 on Windows.
+# Summary-only report rebuild; not the full analysis/GIS training environment.
+numpy==2.5.4
+pandas==3.1.1
+matplotlib==3.11.2

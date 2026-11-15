@@ -1,0 +1,25 @@
+{
+  "download_url": "https://www.landsd.gov.hk/landsd_psi_data/SMO/data/Whole_HK_DTM_5m.zip",
+  "official_description": "https://www.landsd.gov.hk/en/spatial-data/open-data/kf_dtm.html",
+  "method_reference": "https://www.jennessent.com/downloads/Land_Facet_Tools_A4.pdf#page=55",
+  "access_date": "2026-11-14",
+  "dtm_description": "2017 product revised March 2019, photographs 2014/2015 according to official key features. This archived named product is not claimed to be the latest CSDI raster. Includes vegetation/above-ground features. EPSG2326, metres HK principal datum.",
+  "rules": "Central elevation median of land cells within 25 m. Local slope from plane fit within 50 m. TPI z=(central elevation-neighbour mean)/max(neighbour SD,1m), annulus 25m to R. Land/mapped cells only. Primary R500m; TPI<=-1 valley, >1 ridge, otherwise slope<5deg plain, otherwise slope. Operational proxies, not hydrological classification.",
+  "caveats": [
+    "Static historical terrain and contemporary coastline; coastline and terrain dates differ.",
+    "Coastal and small-island neighbourhoods are truncated to available land; land support reported, not replaced with sea zero.",
+    "Few stations mean landform groups and factors can be confounded; labels sensitive to scale/thresholds are retained, not removed.",
+    "Central DTM may differ from station height due to coordinates, station platform, vegetation or source differences."
+  ],
+  "counts": {
+    "plain": 12,
+    "ridge": 10,
+    "slope": 8,
+    "valley": 2
+  },
+  "source_sha256": {
+    "C:\\Users\\Sena\\Documents\\ChatGPT\\Project FYP - demo\\analysis\\geographic-factors-20261114\\sources\\Whole_HK_DTM_5m.zip": "785718f462ae6de3c9e1fed2bf9fe5affe1c1d739c0a969fd62cf3680b4b33ab",
+    "C:\\Users\\Sena\\Documents\\ChatGPT\\Project FYP - demo\\analysis\\geographic-factors-20261114\\sources\\Whole_HK_DTM_5m.asc": "f347015e3986e91555db870621b34500216d5fa83d883d4aa890efbada3b84d0",
+    "C:\\Users\\Sena\\Documents\\ChatGPT\\Project FYP - demo\\analysis\\regional-altitude\\sources\\hk_sea.json": "790044d0441f3ada9e92427d8b71c0b2c63c087a08fbf820d2a2ea63a26e0297"
+  }
+}

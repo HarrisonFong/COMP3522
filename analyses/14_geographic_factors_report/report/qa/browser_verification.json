@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "desktop": {
+    "title": "COMP3522｜四個地理因素與方法比較",
+    "figures": 7,
+    "captions": 7,
+    "images": true,
+    "overflow": false
+  },
+  "mobile": {
+    "width": 390,
+    "documentWidth": 390,
+    "overflow": false
+  },
+  "interactive_combinations": 408,
+  "missing_local_links": [],
+  "javascript_errors": []
+}
