@@ -1,0 +1,17 @@
+﻿check,target,method,absolute_difference
+validation,Tmax,raw,2.220446049250313e-16
+2025_mae,Tmax,raw,0.0
+validation,Tmax,annual_mean,0.0
+2025_mae,Tmax,annual_mean,2.220446049250313e-16
+validation,Tmax,monthly_mean,0.0
+2025_mae,Tmax,monthly_mean,2.220446049250313e-16
+validation,Tmax,monthly_median,2.220446049250313e-16
+2025_mae,Tmax,monthly_median,0.0
+validation,Tmin,raw,0.0
+2025_mae,Tmin,raw,2.220446049250313e-16
+validation,Tmin,annual_mean,2.220446049250313e-16
+2025_mae,Tmin,annual_mean,0.0
+validation,Tmin,monthly_mean,2.220446049250313e-16
+2025_mae,Tmin,monthly_mean,2.220446049250313e-16
+validation,Tmin,monthly_median,2.220446049250313e-16
+2025_mae,Tmin,monthly_median,0.0

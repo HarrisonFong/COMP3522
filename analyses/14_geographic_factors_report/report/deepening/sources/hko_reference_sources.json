@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://www.info.gov.hk/gia/general/201202/22/P201202220231.htm",
+    "date": "2012-02-22",
+    "supports": "Government answer: HQ data historically used as indicator for weather reports and forecasts; not exclusive model input"
+  },
+  {
+    "url": "https://my.weather.gov.hk/tc/index.html",
+    "accessed": "2026-11-14",
+    "supports": "Current-day max/min icon values at HKO; not full historical D1-D9 field documentation"
+  }
+]

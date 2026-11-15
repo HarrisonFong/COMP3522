@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "independent_lowland_contrasts": 24,
+  "scope": "Independent explicit date joins, pair mean then equal-pair mean, sign, station counts and support. Bootstrap algorithm covered separately by primary verifier."
+}

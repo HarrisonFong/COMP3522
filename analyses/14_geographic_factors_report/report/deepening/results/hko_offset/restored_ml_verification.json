@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "matched_cases": [
+    {
+      "target": "Tmax",
+      "cohort": "all32",
+      "n_cases": 92025,
+      "identical_observations": true
+    },
+    {
+      "target": "Tmax",
+      "cohort": "low29",
+      "n_cases": 84227,
+      "identical_observations": true
+    },
+    {
+      "target": "Tmin",
+      "cohort": "all32",
+      "n_cases": 92025,
+      "identical_observations": true
+    },
+    {
+      "target": "Tmin",
+      "cohort": "low29",
+      "n_cases": 84227,
+      "identical_observations": true
+    }
+  ],
+  "fits": "existing fits reused; no 2025 selection or new fitting",
+  "bootstrap": "2000 circular 14-day calendar blocks seed 3536; fixed sites and fits"
+}

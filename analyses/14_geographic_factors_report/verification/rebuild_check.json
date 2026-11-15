@@ -1,0 +1,21 @@
+{
+  "summary_only_rebuild": "passed",
+  "main_html_byte_identical": true,
+  "figure_hash_matches": {
+    "13_01_altitude.png": true,
+    "13_02_lowland.png": true,
+    "13_03_raw_coast.png": true,
+    "13_04_offset_effect.png": true,
+    "13_05_adjusted_coast.png": true,
+    "13_06_geo_after_offset.png": true,
+    "14_coast_linear.png": true,
+    "14_factor_correlation.png": true,
+    "14_ml_factor_drop.png": true,
+    "14_ml_methods.png": true,
+    "14_urban_contrasts.png": true,
+    "14_urban_counts.png": true
+  },
+  "no_database_access": true,
+  "publication_note": "Text line endings normalized to LF after byte-identical rebuild check; figures and numerical contents unchanged.",
+  "main_html_normalized_text_identical": true
+}

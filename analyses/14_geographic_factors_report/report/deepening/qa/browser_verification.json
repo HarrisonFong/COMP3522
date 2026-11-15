@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "desktop": {
+    "images": true,
+    "overflow": false
+  },
+  "mobile": {
+    "width": 390,
+    "documentWidth": 390,
+    "overflow": false
+  },
+  "captions": [
+    "圖 1｜每",
+    "圖 2｜2",
+    "圖 3｜三",
+    "圖 4｜相",
+    "圖 5｜地",
+    "圖 6｜只"
+  ],
+  "missing_local_links": [],
+  "javascript_errors": [],
+  "parent_report_link": true,
+  "parent_navigation": true
+}

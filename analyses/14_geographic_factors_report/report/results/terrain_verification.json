@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "stations": 32,
+  "terrain_radius_checks": 96,
+  "synthetic_plane_checks": 2,
+  "source_ASC_vs_TIFF_station_samples_match": true,
+  "classification_counts": {
+    "plain": 12,
+    "ridge": 10,
+    "slope": 8,
+    "valley": 2
+  },
+  "scale_sensitive_stations": 10,
+  "near_rule_boundary_stations": 8,
+  "max_abs_dtm_station_elevation_difference_m": 9.0,
+  "minimum_land_fraction_500m": 0.0887158539698749,
+  "scope": "Verifies numerical extraction/rules, not physical field validity of geomorphological classes. Existing land-use/coast inputs retained from prior audited study."
+}

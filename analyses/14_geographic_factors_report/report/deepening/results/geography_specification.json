@@ -1,0 +1,66 @@
+{
+  "coast_thresholds_m": [
+    500,
+    2000
+  ],
+  "urban_thresholds": [
+    0.2,
+    0.5
+  ],
+  "primary_buffer_m": 500,
+  "sensitivity_buffers_m": [
+    250,
+    1000
+  ],
+  "developed_codes": [
+    1,
+    2,
+    3,
+    11,
+    21,
+    22,
+    23,
+    31,
+    32,
+    41,
+    42,
+    44,
+    51,
+    52,
+    53,
+    54
+  ],
+  "restricted_codes": [
+    1,
+    2,
+    3,
+    11,
+    21,
+    22,
+    23,
+    31,
+    41,
+    42,
+    44,
+    51,
+    52
+  ],
+  "exclude_water_codes": [
+    62,
+    91,
+    92
+  ],
+  "airport_code_excluded_from_numerator_and_denominator": 43,
+  "urban_minimum_mapped_land_ratio": 0.9,
+  "raster_download": "https://static.csdi.gov.hk/csdi-webpage/download/d62c3854d2a45c8daed8c8f69348fc54/geotiff",
+  "raster_sha256": "66c77cb8e8b536a6e8d5552a19dba916252eed4ee65b06e018759bc198ac6e66",
+  "sea_source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637221775627_85634/FeatureServer/7/query?where=CLASS%3D%27EWB%27%20AND%20TYPE%3D%27SEF%27&outFields=OBJECTID&returnGeometry=true&outSR=4326&geometryPrecision=6&maxAllowableOffset=0.0001&f=geojson",
+  "assumptions": [
+    "Static 2023 land use over all four years; exploratory broad-brush classification, not precise survey.",
+    "Contemporary 2026 sea geometry used as static coast proxy; no historical coastline reconstruction.",
+    "Coastal distance is distance to mapped marine water, not freshwater or administrative boundary.",
+    "Developed includes parks/recreation, construction/vacant land and other built-up classes; restricted numerator sensitivity excludes codes 32,53,54.",
+    "0/unmapped, inland water and airport excluded from effective land denominator; center-in-pixel buffer approximation at 10 m."
+  ],
+  "primary_numerator": "restricted_codes"
+}

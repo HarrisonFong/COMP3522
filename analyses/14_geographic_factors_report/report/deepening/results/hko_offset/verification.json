@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "target": "Tmax",
+      "raw_cases": 92025,
+      "raw_forecast_join": "passed",
+      "frozen_offsets": "passed",
+      "all_method_cohort_maes": "passed",
+      "lowland_D3_paired_coast_and_2000_bootstrap": "passed"
+    },
+    {
+      "target": "Tmin",
+      "raw_cases": 92025,
+      "raw_forecast_join": "passed",
+      "frozen_offsets": "passed",
+      "all_method_cohort_maes": "passed",
+      "lowland_D3_paired_coast_and_2000_bootstrap": "passed"
+    }
+  ],
+  "independent_weighted_date_demeaned_regression_models": 16,
+  "old30_reproduction_max_difference": 2.220446049250313e-16,
+  "old_offset_rows_verified": 2160
+}

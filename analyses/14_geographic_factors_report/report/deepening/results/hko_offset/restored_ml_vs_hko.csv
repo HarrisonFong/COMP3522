@@ -1,0 +1,17 @@
+﻿target,cohort,method,reference,mae_difference,ci_low,ci_high,n_cases,n_stations,meaning
+Tmax,all32,station_mean,hko_observed_offset,0.007958995479217836,-0.033743327901289796,0.04727399868309519,92025,32,negative favours ML/residual correction over HKO observed offset
+Tmax,all32,station_median,hko_observed_offset,0.00233580275852438,-0.04386288492523184,0.04489783064424945,92025,32,negative favours ML/residual correction over HKO observed offset
+Tmax,all32,linear_full,hko_observed_offset,0.03765447712293237,0.0015720843436961359,0.07483792633433897,92025,32,negative favours ML/residual correction over HKO observed offset
+Tmax,all32,hgb_full,hko_observed_offset,-0.026444898435509526,-0.07530351267425621,0.02006146719112727,92025,32,negative favours ML/residual correction over HKO observed offset
+Tmax,low29,station_mean,hko_observed_offset,0.0008790923759645041,-0.03905088067103671,0.03858365440760208,84227,29,negative favours ML/residual correction over HKO observed offset
+Tmax,low29,station_median,hko_observed_offset,-0.005310999240201533,-0.0507191439374755,0.038842573029671944,84227,29,negative favours ML/residual correction over HKO observed offset
+Tmax,low29,linear_full,hko_observed_offset,0.031630225736411506,-0.005237661713607474,0.06805824832035781,84227,29,negative favours ML/residual correction over HKO observed offset
+Tmax,low29,hgb_full,hko_observed_offset,-0.032043335588449344,-0.08207556407558367,0.015931187626248906,84227,29,negative favours ML/residual correction over HKO observed offset
+Tmin,all32,station_mean,hko_observed_offset,0.0003195748013116682,-0.024306682349934126,0.02617829437963376,92025,32,negative favours ML/residual correction over HKO observed offset
+Tmin,all32,station_median,hko_observed_offset,0.011758949570888423,-0.013979628057160508,0.040905665371509185,92025,32,negative favours ML/residual correction over HKO observed offset
+Tmin,all32,linear_full,hko_observed_offset,0.036817328597554905,0.012090654056929126,0.06282143778913495,92025,32,negative favours ML/residual correction over HKO observed offset
+Tmin,all32,hgb_full,hko_observed_offset,-0.005397467546378981,-0.03830885270335854,0.031721291188449345,92025,32,negative favours ML/residual correction over HKO observed offset
+Tmin,low29,station_mean,hko_observed_offset,0.0025988358202015745,-0.021264278881551923,0.029312402189676408,84227,29,negative favours ML/residual correction over HKO observed offset
+Tmin,low29,station_median,hko_observed_offset,0.01441294036664521,-0.00979259521567014,0.04315469028824348,84227,29,negative favours ML/residual correction over HKO observed offset
+Tmin,low29,linear_full,hko_observed_offset,0.043571988994506775,0.01796410396300275,0.07158976031267975,84227,29,negative favours ML/residual correction over HKO observed offset
+Tmin,low29,hgb_full,hko_observed_offset,0.0010119003909037972,-0.029718815169445294,0.033704876178043665,84227,29,negative favours ML/residual correction over HKO observed offset

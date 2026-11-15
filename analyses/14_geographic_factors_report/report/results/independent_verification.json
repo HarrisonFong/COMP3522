@@ -1,0 +1,3333 @@
+{
+  "passed": true,
+  "source_case_rows_checked": 1236132,
+  "independent_model_refits": 140,
+  "metric_summaries_checked": 102,
+  "checks": [
+    {
+      "check": "forecast keys unique",
+      "detail": ""
+    },
+    {
+      "check": "Tmax C observation rows",
+      "detail": ""
+    },
+    {
+      "check": "Tmax truth values match raw export",
+      "detail": ""
+    },
+    {
+      "check": "Tmax numeric observations exclude Trace",
+      "detail": ""
+    },
+    {
+      "check": "Tmax bulletin timestamp preserved",
+      "detail": ""
+    },
+    {
+      "check": "Tmax daily latest",
+      "detail": ""
+    },
+    {
+      "check": "Tmax public forecast values",
+      "detail": ""
+    },
+    {
+      "check": "Tmax lead date arithmetic",
+      "detail": ""
+    },
+    {
+      "check": "Tmax no duplicate case keys",
+      "detail": ""
+    },
+    {
+      "check": "Tmax cohort count",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal boundary embargo",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal exact same cases",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal finite predictions",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal raw metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal global_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal station_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal station_median metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal mean_elevation metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal mean_coast metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal mean_urban metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal mean_terrain metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal linear_base metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal linear_full metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal hgb_base metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal hgb_full metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal -1 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal -1 raw training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal -1 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal -1 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal -1 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal -1 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal -1 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal -1 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal -1 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal -1 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal -1 linear_base independent refit",
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "Tmax temporal -1 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal -1 linear_full independent refit",
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "Tmax temporal -1 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal -1 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmax temporal -1 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax temporal -1 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmax linear_full drop elevation refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax linear_full drop coast refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax linear_full drop urban refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax linear_full drop terrain refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax hgb_full drop elevation refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax hgb_full drop coast refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax hgb_full drop urban refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax hgb_full drop terrain refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial exact same cases",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial finite predictions",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial raw metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial global_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial station_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial station_median metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial mean_elevation metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial mean_coast metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial mean_urban metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial mean_terrain metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial linear_base metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial linear_full metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial hgb_base metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial hgb_full metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 0 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 0 raw training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 0 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 0 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 0 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 0 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 0 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 0 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 0 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 0 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 0 linear_base independent refit",
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "check": "Tmax spatial 0 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 0 linear_full independent refit",
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "Tmax spatial 0 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 0 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmax spatial 0 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 0 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmax spatial 1 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 1 raw training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 1 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 1 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 1 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 1 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 1 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 1 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 1 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 1 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 1 linear_base independent refit",
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "check": "Tmax spatial 1 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 1 linear_full independent refit",
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "Tmax spatial 1 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 1 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmax spatial 1 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 1 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmax spatial 2 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 2 raw training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 2 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 2 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 2 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 2 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 2 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 2 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 2 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 2 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 2 linear_base independent refit",
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "check": "Tmax spatial 2 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 2 linear_full independent refit",
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "Tmax spatial 2 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 2 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmax spatial 2 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 2 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmax spatial 3 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 3 raw training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 3 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 3 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 3 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 3 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 3 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 3 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 3 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 3 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 3 linear_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmax spatial 3 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 3 linear_full independent refit",
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "Tmax spatial 3 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 3 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmax spatial 3 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 3 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmax spatial 4 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 4 raw training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 4 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 4 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 4 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 4 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 4 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 4 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 4 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 4 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 4 linear_base independent refit",
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "check": "Tmax spatial 4 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 4 linear_full independent refit",
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "check": "Tmax spatial 4 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 4 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmax spatial 4 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmax 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmax validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmax spatial 4 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmin C observation rows",
+      "detail": ""
+    },
+    {
+      "check": "Tmin truth values match raw export",
+      "detail": ""
+    },
+    {
+      "check": "Tmin numeric observations exclude Trace",
+      "detail": ""
+    },
+    {
+      "check": "Tmin bulletin timestamp preserved",
+      "detail": ""
+    },
+    {
+      "check": "Tmin daily latest",
+      "detail": ""
+    },
+    {
+      "check": "Tmin public forecast values",
+      "detail": ""
+    },
+    {
+      "check": "Tmin lead date arithmetic",
+      "detail": ""
+    },
+    {
+      "check": "Tmin no duplicate case keys",
+      "detail": ""
+    },
+    {
+      "check": "Tmin cohort count",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal boundary embargo",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal exact same cases",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal finite predictions",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal raw metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal global_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal station_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal station_median metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal mean_elevation metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal mean_coast metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal mean_urban metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal mean_terrain metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal linear_base metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal linear_full metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal hgb_base metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal hgb_full metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal -1 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal -1 raw training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal -1 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal -1 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal -1 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal -1 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal -1 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal -1 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal -1 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal -1 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal -1 linear_base independent refit",
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "check": "Tmin temporal -1 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal -1 linear_full independent refit",
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "check": "Tmin temporal -1 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal -1 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmin temporal -1 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin temporal -1 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmin linear_full drop elevation refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin linear_full drop coast refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin linear_full drop urban refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin linear_full drop terrain refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin hgb_full drop elevation refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin hgb_full drop coast refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin hgb_full drop urban refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin hgb_full drop terrain refit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial exact same cases",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial finite predictions",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial raw metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial global_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial station_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial station_median metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial mean_elevation metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial mean_coast metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial mean_urban metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial mean_terrain metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial linear_base metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial linear_full metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial hgb_base metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial hgb_full metric",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 0 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 0 raw training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 0 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 0 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 0 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 0 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 0 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 0 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 0 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 0 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 0 linear_base independent refit",
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "check": "Tmin spatial 0 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 0 linear_full independent refit",
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "check": "Tmin spatial 0 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 0 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmin spatial 0 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 0 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmin spatial 1 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 1 raw training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 1 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 1 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 1 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 1 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 1 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 1 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 1 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 1 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 1 linear_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmin spatial 1 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 1 linear_full independent refit",
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "check": "Tmin spatial 1 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 1 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmin spatial 1 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 1 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmin spatial 2 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 2 raw training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 2 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 2 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 2 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 2 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 2 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 2 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 2 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 2 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 2 linear_base independent refit",
+      "detail": 1.7763568394002505e-15
+    },
+    {
+      "check": "Tmin spatial 2 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 2 linear_full independent refit",
+      "detail": 1.4210854715202004e-14
+    },
+    {
+      "check": "Tmin spatial 2 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 2 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmin spatial 2 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 2 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmin spatial 3 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 3 raw training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 3 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 3 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 3 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 3 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 3 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 3 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 3 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 3 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 3 linear_base independent refit",
+      "detail": 1.7763568394002505e-15
+    },
+    {
+      "check": "Tmin spatial 3 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 3 linear_full independent refit",
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "check": "Tmin spatial 3 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 3 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmin spatial 3 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 3 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmin spatial 4 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 4 raw training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 4 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 4 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 4 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 4 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 4 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 4 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 4 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 4 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 4 linear_base independent refit",
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "check": "Tmin spatial 4 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 4 linear_full independent refit",
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "check": "Tmin spatial 4 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 4 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "Tmin spatial 4 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "Tmin 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "Tmin validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "Tmin spatial 4 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_event C observation rows",
+      "detail": ""
+    },
+    {
+      "check": "rain_event truth values match raw export",
+      "detail": ""
+    },
+    {
+      "check": "rain_event bulletin timestamp preserved",
+      "detail": ""
+    },
+    {
+      "check": "rain_event daily latest",
+      "detail": ""
+    },
+    {
+      "check": "rain_event PSR preserved",
+      "detail": ""
+    },
+    {
+      "check": "rain_event lead date arithmetic",
+      "detail": ""
+    },
+    {
+      "check": "rain_event no duplicate case keys",
+      "detail": ""
+    },
+    {
+      "check": "rain_event cohort count",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal boundary embargo",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal exact same cases",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal finite predictions",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal probability bounds",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal global_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal category_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal station_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal mean_elevation metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal mean_coast metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal mean_urban metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal mean_terrain metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal linear_base metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal linear_full metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal hgb_base metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal hgb_full metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal -1 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal -1 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal -1 category_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal -1 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal -1 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal -1 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal -1 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal -1 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal -1 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal -1 linear_base independent refit",
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "check": "rain_event temporal -1 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal -1 linear_full independent refit",
+      "detail": 7.749356711883593e-14
+    },
+    {
+      "check": "rain_event temporal -1 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal -1 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_event temporal -1 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event temporal -1 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_event linear_full drop elevation refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event linear_full drop coast refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event linear_full drop urban refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event linear_full drop terrain refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event hgb_full drop elevation refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event hgb_full drop coast refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event hgb_full drop urban refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event hgb_full drop terrain refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial exact same cases",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial finite predictions",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial probability bounds",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial global_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial category_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial station_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial mean_elevation metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial mean_coast metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial mean_urban metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial mean_terrain metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial linear_base metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial linear_full metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial hgb_base metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial hgb_full metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 0 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 0 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 0 category_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 0 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 0 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 0 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 0 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 0 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 0 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 0 linear_base independent refit",
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "check": "rain_event spatial 0 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 0 linear_full independent refit",
+      "detail": 5.551115123125783e-16
+    },
+    {
+      "check": "rain_event spatial 0 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 0 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_event spatial 0 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 0 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_event spatial 1 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 1 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 1 category_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 1 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 1 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 1 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 1 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 1 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 1 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 1 linear_base independent refit",
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "check": "rain_event spatial 1 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 1 linear_full independent refit",
+      "detail": 9.992007221626409e-16
+    },
+    {
+      "check": "rain_event spatial 1 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 1 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_event spatial 1 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 1 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_event spatial 2 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 2 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 2 category_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 2 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 2 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 2 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 2 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 2 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 2 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 2 linear_base independent refit",
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "check": "rain_event spatial 2 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 2 linear_full independent refit",
+      "detail": 4.6629367034256575e-15
+    },
+    {
+      "check": "rain_event spatial 2 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 2 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_event spatial 2 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 2 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_event spatial 3 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 3 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 3 category_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 3 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 3 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 3 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 3 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 3 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 3 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 3 linear_base independent refit",
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "check": "rain_event spatial 3 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 3 linear_full independent refit",
+      "detail": 1.1102230246251565e-15
+    },
+    {
+      "check": "rain_event spatial 3 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 3 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_event spatial 3 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 3 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_event spatial 4 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 4 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 4 category_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 4 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 4 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 4 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 4 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 4 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 4 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 4 linear_base independent refit",
+      "detail": 1.1102230246251565e-16
+    },
+    {
+      "check": "rain_event spatial 4 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 4 linear_full independent refit",
+      "detail": 7.771561172376096e-16
+    },
+    {
+      "check": "rain_event spatial 4 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 4 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_event spatial 4 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_event 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_event validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_event spatial 4 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount C observation rows",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount truth values match raw export",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount numeric observations exclude Trace",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount bulletin timestamp preserved",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount daily latest",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount PSR preserved",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount lead date arithmetic",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount no duplicate case keys",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount cohort count",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal boundary embargo",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal exact same cases",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal finite predictions",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal zero metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal global_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal category_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal category_median metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal station_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal station_median metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal mean_elevation metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal mean_coast metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal mean_urban metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal mean_terrain metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal linear_base metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal linear_full metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal hgb_base metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal hgb_full metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal hgb_long_full metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal hgb_squared_full metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 zero training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 category_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 category_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 linear_base independent refit",
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "rain_amount temporal -1 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 linear_full independent refit",
+      "detail": 1.4210854715202004e-14
+    },
+    {
+      "check": "rain_amount temporal -1 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount temporal -1 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount temporal -1 hgb_long_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 hgb_long_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount temporal -1 hgb_squared_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount temporal -1 hgb_squared_full independent refit",
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "rain_amount linear_full drop elevation refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount linear_full drop coast refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount linear_full drop urban refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount linear_full drop terrain refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount hgb_full drop elevation refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount hgb_full drop coast refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount hgb_full drop urban refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount hgb_full drop terrain refit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial exact same cases",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial finite predictions",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial zero metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial global_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial category_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial category_median metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial station_mean metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial station_median metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial mean_elevation metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial mean_coast metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial mean_urban metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial mean_terrain metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial linear_base metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial linear_full metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial hgb_base metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial hgb_full metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial hgb_long_full metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial hgb_squared_full metric",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 zero training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 category_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 category_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 linear_base independent refit",
+      "detail": 1.4210854715202004e-14
+    },
+    {
+      "check": "rain_amount spatial 0 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 linear_full independent refit",
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "rain_amount spatial 0 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 0 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 0 hgb_long_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 hgb_long_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 0 hgb_squared_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 0 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 0 hgb_squared_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 1 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 zero training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 category_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 category_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 linear_base independent refit",
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "rain_amount spatial 1 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 linear_full independent refit",
+      "detail": 1.4210854715202004e-14
+    },
+    {
+      "check": "rain_amount spatial 1 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 1 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 1 hgb_long_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 hgb_long_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 1 hgb_squared_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 1 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 1 hgb_squared_full independent refit",
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "rain_amount spatial 2 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 zero training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 category_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 category_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 linear_base independent refit",
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "check": "rain_amount spatial 2 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 linear_full independent refit",
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "rain_amount spatial 2 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 2 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 2 hgb_long_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 hgb_long_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 2 hgb_squared_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 2 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 2 hgb_squared_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 3 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 zero training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 category_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 category_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 linear_base independent refit",
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "rain_amount spatial 3 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 linear_full independent refit",
+      "detail": 1.4210854715202004e-14
+    },
+    {
+      "check": "rain_amount spatial 3 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 3 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 3 hgb_long_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 hgb_long_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 3 hgb_squared_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 3 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 3 hgb_squared_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 4 split exclusion",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 zero training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 global_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 category_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 category_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 station_mean training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 station_median training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 mean_elevation training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 mean_coast training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 mean_urban training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 mean_terrain training-only baseline",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 linear_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 linear_base independent refit",
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "rain_amount spatial 4 linear_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 linear_full independent refit",
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "rain_amount spatial 4 hgb_base validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 hgb_base independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 4 hgb_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 hgb_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 4 hgb_long_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 hgb_long_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "rain_amount spatial 4 hgb_squared_full validation choice",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount 4 excluded-site audit",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount validation sample counts",
+      "detail": ""
+    },
+    {
+      "check": "rain_amount spatial 4 hgb_squared_full independent refit",
+      "detail": 0.0
+    },
+    {
+      "check": "calendar block direct replicate 0",
+      "detail": ""
+    },
+    {
+      "check": "calendar block direct replicate 37",
+      "detail": ""
+    },
+    {
+      "check": "calendar block direct replicate 1999",
+      "detail": ""
+    }
+  ],
+  "scope": "Independent raw export joins, metric groupby calculations, all selected temporal/spatial ML refits, core factor-drop refits and three block arithmetic checks. Does not certify raw archive completeness, operational availability, true terrain classes or new-station population uncertainty."
+}

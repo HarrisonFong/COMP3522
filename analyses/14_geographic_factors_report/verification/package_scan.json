@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checked_reports": 3,
+  "main_report_figures": 12,
+  "missing_links": [],
+  "credential_pattern_hits": [],
+  "forbidden_raw_or_secret_files": [],
+  "largest_file_bytes": 1763869
+}

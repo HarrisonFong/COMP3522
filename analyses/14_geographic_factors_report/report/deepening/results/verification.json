@@ -1,0 +1,10 @@
+{
+  "regression_models": 44,
+  "passed": true,
+  "group_summaries": 556,
+  "matched_contrasts": 116,
+  "correlations": 288,
+  "old_coast_means": 6,
+  "bootstrap_draws_per_regression": 2000,
+  "scope": "Independent date-join contrasts; row-weighted least squares; raw-moment block bootstrap intervals; precision-matrix partial Spearman and VIF; group means and source-loss arithmetic. No scientific causality validation."
+}
