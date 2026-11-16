@@ -1,0 +1,83 @@
+{
+  "comparison": "Instantaneous readings versus extrema on a closed interval, tolerance 1e-10 C after both paddings",
+  "warnings": 755,
+  "at_start": 755,
+  "at_end": 0,
+  "interior": 0,
+  "max_excess_after_padding_c": 0.22573242187495454,
+  "examples": [
+    {
+      "run_utc": "2025-04-08T18:00:00+00:00",
+      "variable": "tmax",
+      "forecast_hour": 87,
+      "raw_difference_c": 0.4257324218749545,
+      "excess_after_padding_c": 0.22573242187495454,
+      "at_start": true,
+      "at_end": false
+    },
+    {
+      "run_utc": "2025-04-08T18:00:00+00:00",
+      "variable": "tmax",
+      "forecast_hour": 90,
+      "raw_difference_c": 0.4257324218749545,
+      "excess_after_padding_c": 0.22573242187495454,
+      "at_start": true,
+      "at_end": false
+    },
+    {
+      "run_utc": "2025-11-26T00:00:00+00:00",
+      "variable": "tmin",
+      "forecast_hour": 105,
+      "raw_difference_c": 0.2627734375000159,
+      "excess_after_padding_c": 0.22277343750001594,
+      "at_start": true,
+      "at_end": false
+    },
+    {
+      "run_utc": "2025-01-20T00:00:00+00:00",
+      "variable": "tmin",
+      "forecast_hour": 177,
+      "raw_difference_c": 0.20121093749997954,
+      "excess_after_padding_c": 0.16121093749997956,
+      "at_start": true,
+      "at_end": false
+    },
+    {
+      "run_utc": "2025-10-03T12:00:00+00:00",
+      "variable": "tmax",
+      "forecast_hour": 21,
+      "raw_difference_c": 0.18990234375002046,
+      "excess_after_padding_c": 0.14990234375002048,
+      "at_start": true,
+      "at_end": false
+    },
+    {
+      "run_utc": "2025-10-03T12:00:00+00:00",
+      "variable": "tmax",
+      "forecast_hour": 24,
+      "raw_difference_c": 0.1872656250000091,
+      "excess_after_padding_c": 0.14726562500000911,
+      "at_start": true,
+      "at_end": false
+    },
+    {
+      "run_utc": "2025-02-25T18:00:00+00:00",
+      "variable": "tmin",
+      "forecast_hour": 135,
+      "raw_difference_c": 0.17638671874999545,
+      "excess_after_padding_c": 0.13638671874999547,
+      "at_start": true,
+      "at_end": false
+    },
+    {
+      "run_utc": "2025-02-01T18:00:00+00:00",
+      "variable": "tmin",
+      "forecast_hour": 87,
+      "raw_difference_c": 0.17009765624999318,
+      "excess_after_padding_c": 0.1300976562499932,
+      "at_start": true,
+      "at_end": false
+    }
+  ],
+  "interpretation": "All observed warnings are evaluated by position. Boundary convention remains unverified; envelopes remain conditional on compatible interval meanings, not certified continuous-path bounds."
+}

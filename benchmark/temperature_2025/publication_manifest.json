@@ -1,0 +1,31 @@
+{
+  "scope": "Published annual temperature benchmark files only; cache excluded",
+  "files": {
+    ".gitattributes": "c089985639038cc07dc37c07a8d0d543df7ddf9b1873a948000494a6e230530d",
+    ".gitignore": "fba3161fc0773b7851ddc424b0e52a8a9bdd249cf70e6c274c84ea365c19f396",
+    "accuracy.csv": "7d248a825d5c441fb53e4dba76de9ebac8a5e2d24104dc7532452bfd49140e03",
+    "accuracy_by_lead.png": "da68d45a2e2f138fe2cdb11c2e62a16a6c54ee453978a0d08348f683f3461ba0",
+    "annual_methods.py": "c6390165de64f6beac34388abe16b661cc2e1353a7ab362fcdb57ed24654b2e5",
+    "build_report.py": "671be6fdfc58a3602dfc1e7701e5f03775ac95f8cc9becc1d7a85b3345c1546b",
+    "coverage.csv": "16a00a8154c8eb096027d9240f39e801abd112cf3f9c33849a332b08e8161fb6",
+    "daily_D1.png": "162671d2d88bbaf4e30a013ea5151f09eb93f4825181e4838ac7b762f853116b",
+    "excluded_cases.csv": "60f809caac4cc5ffcd305fd5bdf8aed38972a2e18f273fe27453478b9a050f14",
+    "forecast_cases.csv": "50269b79d1f785c216ffa6d727fa0ccea37631e21ef1147af639c61cbc3e8399",
+    "native_consistency.json": "34773b8b146aabd36bebff34c8c092054b7cd949b84ad52368e3bfce174b55df",
+    "PLAN.md": "48731a8495d9e69c8c319c03a54c68b2b9694238bc7b457b2485f1d4ca24b320",
+    "README.md": "fbc9d1b40b490357ab64a66301bce6413caf1bbf9ea11b4de753e1f675cd80fd",
+    "reproduction_validation.json": "ea55997cccae65f5143c71cfaa58e951275a26a5e85d0e98faa42657372b2b40",
+    "requirements.txt": "c567a577fd170777b5ef8af51a294fcdccc88e183e9ddef850d160110191ca7b",
+    "revision_contrasts.csv": "08099b4d88aaaedea9d93f7516c28b9fd9d353365fcd749951af89a2098a7edf",
+    "revision_effectiveness.png": "1dfe4af4270dd312fe7f2894c6b5c8512f1eca929918aa48f864767b3156fdcd",
+    "revision_frequency.png": "1694b231b75c20c6cc6199c06ead8eabd03450e104240af4d9c3feb4d9e4836a",
+    "revision_pairs.csv": "87928807df294687b1ca6bf5c8f7d548477a83e6ab0457f4a1f9e24fabdd85c1",
+    "revision_summary.csv": "9396dfd7897640cf42d4436ca4b4d107552d9780fab1f9561fd40c749b61be8a",
+    "run_analysis.py": "e6e2cde96e133bc34501fe10823e473326dd880a852e1309de0f5a754b604447",
+    "run_metadata.json": "acdfb9faa4c1f73a03467764fa26187bc0f5900242b9fcc34ba17b687e4dc586",
+    "source_queries.sql": "9981c5385eadbc45a9b19f80a573c82f3ae312e72a519c5453aa974d7edcd408",
+    "test_methods.py": "432f7a3e18e786a958083bcd234771a690a076b9e7abad0d145c43253b21a41e",
+    "validation.json": "d6447cd4f9ebdf923f32e99c0f1d345759d9889f8b85236f6aa1fcf87dba5402",
+    "verify_results.py": "2c356d1784bf75ebc5aa699805e6e3e52e0f70d37996abc76a333b33f79a5f75"
+  }
+}

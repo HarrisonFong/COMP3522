@@ -1,0 +1,103 @@
+{
+  "snapshot_at_utc": "2026-11-16T02:37:56.306074+00:00",
+  "database_read_only": true,
+  "database_writes": false,
+  "target_start": "2025-01-01",
+  "target_end_exclusive": "2026-01-01",
+  "primary_scenario": "20HKT_lag6",
+  "scenarios": {
+    "20HKT_lag6": [
+      20,
+      6
+    ],
+    "20HKT_lag4": [
+      20,
+      4
+    ],
+    "20HKT_lag8": [
+      20,
+      8
+    ],
+    "20HKT_lag12": [
+      20,
+      12
+    ],
+    "12HKT_lag6": [
+      12,
+      6
+    ],
+    "16HKT_lag6": [
+      16,
+      6
+    ],
+    "02HKT_lag6": [
+      2,
+      6
+    ],
+    "08HKT_lag6": [
+      8,
+      6
+    ],
+    "14HKT_lag6": [
+      14,
+      6
+    ]
+  },
+  "primary_cases": 5110,
+  "expected_primary_cases": 5110,
+  "exclusions_by_scenario": {
+    "02HKT_lag6": 730
+  },
+  "station": {
+    "station_code": "HKO",
+    "station_name": "Hong Kong Observatory",
+    "latitude": 22.30194444,
+    "longitude": 114.17416667,
+    "elevation_m": 32.0
+  },
+  "audit": {
+    "observations": {
+      "tmax_rows": 365,
+      "tmax_valid": 365,
+      "tmin_rows": 365,
+      "tmin_valid": 365
+    },
+    "gfs_rows": 287956,
+    "gfs_runs": 1492,
+    "complete_gfs_runs": 1492,
+    "expected_gfs_runs": 1492,
+    "missing_gfs_runs": [],
+    "actual_grid_points": [
+      [
+        22.25,
+        114.25,
+        9.708491220238345
+      ]
+    ],
+    "historical_gfs_availability_populated": 0,
+    "primary_stale_hko_cases": 0
+  },
+  "conditional_temporal_envelopes": true,
+  "exact_daily_extrema": false,
+  "verified_historical_gfs_availability": false,
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 3522,
+    "block_days": 7,
+    "sensitivity_block_days": 14,
+    "unit": "target date, keeping leads and products paired",
+    "multiplicity_adjusted": false
+  },
+  "code_sha256": "aa6e289ab6a91c7e94913904523da1364fa13ea5b9cbadb1e7fbe0cc22d5b224",
+  "input_cache_sha256": "c1a0e8a81199fe91d261bc6a2b2cc002b59efa4da17057dd30763bc15594764b",
+  "query_sha256": "9981c5385eadbc45a9b19f80a573c82f3ae312e72a519c5453aa974d7edcd408",
+  "evidence_hashes": {
+    "forecast_cases.csv": "50269b79d1f785c216ffa6d727fa0ccea37631e21ef1147af639c61cbc3e8399",
+    "excluded_cases.csv": "60f809caac4cc5ffcd305fd5bdf8aed38972a2e18f273fe27453478b9a050f14",
+    "coverage.csv": "16a00a8154c8eb096027d9240f39e801abd112cf3f9c33849a332b08e8161fb6",
+    "accuracy.csv": "7d248a825d5c441fb53e4dba76de9ebac8a5e2d24104dc7532452bfd49140e03",
+    "revision_pairs.csv": "87928807df294687b1ca6bf5c8f7d548477a83e6ab0457f4a1f9e24fabdd85c1",
+    "revision_summary.csv": "9396dfd7897640cf42d4436ca4b4d107552d9780fab1f9561fd40c749b61be8a",
+    "revision_contrasts.csv": "08099b4d88aaaedea9d93f7516c28b9fd9d353365fcd749951af89a2098a7edf"
+  }
+}

@@ -16,7 +16,13 @@ all stored row digests and 12 monthly NOAA re-download samples were verified.
 The [January 2025 trial](analyses/11_gfs_hko_january_2025/README.md) now applies
 the comparison protocol to paired temperature errors and daily revisions, with
 explicit availability/reconstruction assumptions and RH/rainfall data gaps.
-Full-year fair-comparison results remain pending.
+The [2025 full-year temperature benchmark](benchmark/temperature_2025/README.md)
+now compares 5,110 paired D1–D7 Tmax/Tmin cases and revision effectiveness at
+daily and six-hour inspection cadences. HKO has lower temperature error under
+the stated assumptions; update-effectiveness rankings depend on endpoint,
+cadence and temporal reconstruction uncertainty. Historical publication times
+remain unverified. The separate [annual rainfall workflow comparison](benchmark/rainfall_daily_2025/README.md)
+retains its own successive-nowcast/run definition.
 See [`analyses/README.md`](analyses/README.md) for the folder map and progress,
 and [`analyses/02_rq1_revisions/README.md`](analyses/02_rq1_revisions/README.md)
 for the first completed revision analysis.

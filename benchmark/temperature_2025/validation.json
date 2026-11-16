@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": 147171,
+  "failed_checks": [],
+  "offline": false,
+  "live_selections_checked": 22630,
+  "source_checks": {
+    "reconstructed_cases": 45260,
+    "live_vintage_mismatches": 0,
+    "native_instant_vs_interval_warnings": 755,
+    "warnings_at_start": 755,
+    "warnings_at_end": 0,
+    "warnings_interior": 0
+  },
+  "database_writes": false,
+  "limits": "Arithmetic, primary CIs and chain identities verified. Live mode checks selections/truth and cached source reconstructions. Not a new NOAA-byte audit, proof of historical availability, or certification of packing margins."
+}
