@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": 6373,
+  "failed_checks": [],
+  "selection_rows_verified_live_sql": 1302,
+  "selection_mismatches": 0,
+  "reconstructed_cases_checked": 2604,
+  "native_crossfield_warnings_after_padding": 0,
+  "database_writes": false,
+  "limits": "Checks arithmetic, reconstruction, full selection and primary CI; not historical availability, official spatial targeting or causal explanations."
+}

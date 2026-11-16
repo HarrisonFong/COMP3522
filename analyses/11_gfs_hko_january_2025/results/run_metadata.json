@@ -1,0 +1,139 @@
+{
+  "snapshot_at_utc": "2026-11-13T13:44:01.754080+00:00",
+  "database_read_only": true,
+  "database_writes": false,
+  "target_dates": [
+    "2025-01-01",
+    "2025-02-01"
+  ],
+  "primary_scenario": "20HKT_lag6",
+  "scenarios": {
+    "20HKT_lag6": [
+      20,
+      6
+    ],
+    "20HKT_lag4": [
+      20,
+      4
+    ],
+    "20HKT_lag8": [
+      20,
+      8
+    ],
+    "20HKT_lag12": [
+      20,
+      12
+    ],
+    "12HKT_lag6": [
+      12,
+      6
+    ],
+    "16HKT_lag6": [
+      16,
+      6
+    ]
+  },
+  "station": {
+    "station_code": "HKO",
+    "station_name": "Hong Kong Observatory",
+    "latitude": 22.30194444,
+    "longitude": 114.17416667,
+    "elevation_m": 32.0
+  },
+  "gfs_rows_fetched": 29336,
+  "gfs_runs_fetched": 152,
+  "gfs_available_variables": [
+    "2t",
+    "tmax",
+    "tmin"
+  ],
+  "primary_cases": 434,
+  "expected_primary_cases": 434,
+  "exclusions": [],
+  "primary_stale_hko_cases": 0,
+  "inner_coverage_hours": {
+    "21.0": 434
+  },
+  "temporal_exact_daily_reconstruction": false,
+  "historical_gfs_availability_verified": false,
+  "grid_positions": [
+    [
+      22.25,
+      114.25,
+      9.708491220238345
+    ]
+  ],
+  "rh_audit": {
+    "source_table": "project.hko_multistation_report",
+    "station": "Hong Kong Observatory",
+    "observed_fields": {
+      "rh_min": "HKOReadingsMinRH",
+      "rh_max": "HKOReadingsMaxRH"
+    },
+    "unit": "percent",
+    "error_unit": "percentage_points",
+    "observation_date": "report_date = ReportTimeInfoDate",
+    "official_definition_source": "https://data.weather.gov.hk/weatherAPI/doc/HKO_Open_Data_API_Documentation.pdf",
+    "documentation_pages": "36–37 (printed pages), station/attribute/date definitions",
+    "source_completeness_marker": "not supplied in retained JSON; numeric/date/range validation only",
+    "source_quality_notes": {
+      "The data displayed is provisional. Only limited data validation has been carried out.": 31
+    },
+    "n_reports": 31,
+    "n_expected_dates": 31,
+    "n_valid_dates": 31,
+    "n_missing_or_rejected_dates": 0,
+    "rejected_by_reason": {},
+    "valid_dates_by_year": {
+      "2025": 31
+    },
+    "bulletin_minus_observation_days": {
+      "1": 31
+    },
+    "bulletin_times": {
+      "0015": 31
+    },
+    "temperature_crosscheck_matches": {},
+    "temperature_crosscheck_mismatches": {},
+    "temperature_crosscheck_missing": {},
+    "mean_rh_crosscheck_n": 0,
+    "mean_rh_outside_report_extrema_n": 0,
+    "mean_rh_crosscheck_interpretation": "sanity check only; agreement does not establish finalized RH completeness"
+  },
+  "rainfall": {
+    "reference": "Task 1 agreed area_weighted_22 >=10mm proxy; not official territorial labels",
+    "panel_dates": 31,
+    "panel_event_dates": 0,
+    "trace_ambiguous_dates": 0,
+    "hq_complete_dates": 31,
+    "hq_trace_dates": 5,
+    "hq_rainfall_lower_mm": 4.2,
+    "hq_rainfall_upper_mm": 4.45,
+    "hq_point_10mm_event_dates": 0,
+    "n_forecasts": 217,
+    "categories": {
+      "Low": 217
+    },
+    "midpoint_brier": 0.022500000000000003,
+    "brier_lower": 0.0,
+    "brier_upper": 0.09000000000000001,
+    "revision_pairs": 186,
+    "revision_rate_pct": 0.0
+  },
+  "input_cache_sha256": "5866826cdfa49a28e77ee9dde694fb39bd76a13a240a2ca87d676320feed932f",
+  "rain_weights_sha256": "77737294dcf50a4208982142dd82307883a1e23537acf0af6099fbe55c65a193",
+  "queries_sha256": "ac91e4c3c5578adf46741f86b839832176e9f8ba5c7c8b38fe944009ebe7dac8",
+  "code_sha256": "dae7c94a37879a4ac57090fd208cc715c3326d195ca1d2840d8d0134f977bccb",
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 3522,
+    "primary_calendar_block_days": 7,
+    "sensitivity_block_days": 3,
+    "resampling_unit": "target date, all leads/products together",
+    "multiple_comparison_adjustment": false
+  },
+  "external_context": {
+    "monthly_weather": "https://www.hko.gov.hk/en/wxinfo/pastwx/mws2025/mws202501.htm",
+    "regridding": "https://earthsystemmodeling.org/regrid/"
+  }
+}

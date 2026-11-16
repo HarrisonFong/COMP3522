@@ -214,6 +214,42 @@ logged and a later snapshot is attempted. Resume always checks committed rows.
 The runner attempts transient failures again and reports unfilled slots; it
 never replaces a missing archive field with a fabricated value.
 
+## Low-disk 2025 rainfall import
+
+The authorized rainfall schedule matches the temperature run dates and cycles:
+2024-12-24 inclusive through 2026-01-01 exclusive, 00/06/12/18 UTC, HKO point,
+positive forecast leads +3 to +192 every three hours. No lead-zero APCP amount
+is invented. Target coverage is 1,492 runs / 95,488 subsets / 190,976 native
+accumulation rows if both original APCP messages are available at every lead.
+
+```powershell
+.\data_management\model_forecasts\download_gfs_rainfall_2025.ps1 -Workers 16
+```
+
+This command is authorized to create the separate precipitation table and
+insert verified values/provenance. It does not alter existing temperature or
+HKO rows. Global GRIB bytes remain only in bounded worker memory; progress is
+in ignored `downloads/gfs_2025_rainfall_status.json`. Re-running resumes from
+committed precipitation records. The canonical guide is refreshed after schema
+setup, during import and at graceful exit, including partial failure.
+
+The PowerShell runner calls `stream_gfs_rainfall.py`, then the read-only
+`verify_gfs_rainfall_2025.py` audit after successful completion. That independent
+audit checks the SQL-generated schedule, every station-row digest and source
+identity, and twelve monthly NOAA re-downloads. Its receipt is
+`results/gfs_2025_rainfall_verification.json`; success requires `passed: true`.
+The live guide is refreshed again after verification. The initial 64-source /
+128-row pilot passed its independent audit and three NOAA re-downloads; see
+`results/gfs_2025_rainfall_pilot_verification.json`.
+
+Both native APCP messages are retained, even when their early intervals
+coincide. Later messages can describe rolling/subperiod and since-initialization
+accumulations. Never sum overlapping intervals or both messages. `source_value`
+and units are preserved; stored interval amounts are normalized to mm. This
+acquisition does not itself create daily HKT totals, a rain probability, or a
+territorial event equivalent to HKO PSR. See `DATABASE_AGENT_GUIDE.md` for the
+single schema/interpretation reference and actual committed coverage.
+
 ## 5. Expand after the pilot
 
 **2026-10-23 fairness gate:** the [executed benchmark pilot](../../benchmark/README.md)

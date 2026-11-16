@@ -90,6 +90,7 @@ def refresh_schema_document(destination=None):
                         FROM project.external_model_source s
                         LEFT JOIN station_counts t USING(source_id)
                         WHERE s.model='GFS' AND s.product='pgrb2.0p25'
+                          AND s.manifest->'requested_fields' @> '["TMP"]'::jsonb
                         GROUP BY s.run_time_utc
                     )
                     SELECT to_char(run_time_utc AT TIME ZONE 'UTC','YYYY-MM'),
@@ -105,6 +106,36 @@ def refresh_schema_document(destination=None):
                 for month, cycle, runs, subsets, rows, complete in coverage:
                     lines.append(f"| {month} | {cycle:02d} | {runs:,} | {subsets:,} | {rows:,} | {complete:,} |")
                 lines.extend(["", "These counts check the 0–192 h three-hourly extraction schedule, not exact HKT daily-extrema reconstruction or historical publication availability."])
+            if "external_model_precipitation" in names:
+                coverage = connection.execute("""
+                    WITH field_counts AS (
+                        SELECT source_id,count(*) AS rows FROM project.external_model_precipitation
+                        WHERE station_code='HKO' GROUP BY source_id
+                    ), runs AS (
+                        SELECT s.run_time_utc,count(*) AS sources,
+                               count(DISTINCT s.forecast_hour) AS leads,
+                               min(s.forecast_hour) AS first_hour,max(s.forecast_hour) AS last_hour,
+                               sum(COALESCE(p.rows,0)) AS rows,
+                               bool_and(COALESCE(p.rows,0)=2 AND s.forecast_hour%3=0) AS fields_ok
+                        FROM project.external_model_source s LEFT JOIN field_counts p USING(source_id)
+                        WHERE s.model='GFS' AND s.product='pgrb2.0p25'
+                          AND s.manifest->'requested_fields' @> '["APCP"]'::jsonb
+                        GROUP BY s.run_time_utc
+                    )
+                    SELECT to_char(run_time_utc AT TIME ZONE 'UTC','YYYY-MM'),
+                           EXTRACT(HOUR FROM run_time_utc AT TIME ZONE 'UTC')::int,
+                           count(*),sum(sources),sum(rows),
+                           count(*) FILTER(WHERE sources=64 AND leads=64 AND first_hour=3 AND last_hour=192 AND fields_ok)
+                    FROM runs GROUP BY 1,2 ORDER BY 1,2
+                """).fetchall()
+                lines.extend(["", "GFS HKO rainfall extraction coverage (APCP surface, both native accumulation messages):", "",
+                              "| Run month | Cycle UTC | Runs present | Rainfall subsets | Precipitation rows | Runs with 64 leads / both messages |",
+                              "| --- | ---: | ---: | ---: | ---: | ---: |"])
+                for month, cycle, runs, subsets, rows, complete in coverage:
+                    lines.append(f"| {month} | {cycle:02d} | {runs:,} | {subsets:,} | {rows:,} | {complete:,} |")
+                count = connection.execute("SELECT count(*) FROM project.external_model_precipitation").fetchone()[0]
+                lines.extend(["", f"Precipitation extract rows: **{count:,}** (committed at verification time).",
+                              "Lead zero is structurally excluded. Two accumulation messages are retained per positive lead; never sum overlapping windows or both message families."])
         else:
             lines.append("`project.external_model_source` has not been created.")
         if "external_model_temperature" in names:

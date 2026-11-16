@@ -18,6 +18,7 @@ analyses/
   08_rq7_error_factors/            # RQ7: conditions associated with errors
   09_hq_grid_nowcast/              # supplementary Task 1: short-term rainfall proxy
   10_ecmwf_open_data/              # Task 2: public IFS access/data-engineering feasibility
+  11_gfs_hko_january_2025/         # Task 2: January paired temperature/revision trial
     README.md
     run_analysis.py
     results/
@@ -49,7 +50,11 @@ explicit daily-window and availability limitations. The
 [full-year GFS temperature acquisition](../data_management/model_forecasts/README.md#low-disk-2025-temperature-import)
 now supplies all four 2025 daily cycles plus late-2024 buffers: 1,492 runs,
 96,980 source subsets and 287,956 Headquarters extracts, verified against the
-live database and monthly NOAA samples. Performance comparisons remain pending.
+live database and monthly NOAA samples. The
+[January 2025 comparison trial](11_gfs_hko_january_2025/README.md) now has paired
+temperature lead errors, daily revisions and timing/reconstruction sensitivity;
+RH/rainfall remain HKO-only diagnostics because the GFS payload contains temperature only.
+Full-year performance comparisons remain pending.
 The
 [ECMWF Open Data investigation](10_ecmwf_open_data/README.md) adds a two-anchor
 2024–2025 historical audit, two complete engineering downloads, database

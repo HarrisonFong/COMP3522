@@ -56,6 +56,7 @@ def verify(online=True):
                 SELECT run_time_utc,forecast_hour,count(*) AS copies
                 FROM project.external_model_source
                 WHERE model='GFS' AND product='pgrb2.0p25'
+                  AND manifest->'requested_fields' @> '["TMP"]'::jsonb
                   AND run_time_utc >= %s AND run_time_utc < %s
                 GROUP BY run_time_utc,forecast_hour
             )
@@ -76,6 +77,7 @@ def verify(online=True):
             LEFT JOIN project.external_model_temperature t
                    ON t.source_id=s.source_id AND t.station_code='HKO'
             WHERE s.model='GFS' AND s.product='pgrb2.0p25'
+              AND s.manifest->'requested_fields' @> '["TMP"]'::jsonb
               AND s.run_time_utc >= %s AND s.run_time_utc < %s
             GROUP BY 1 ORDER BY 1
         """, (START, END))
@@ -106,6 +108,7 @@ def verify(online=True):
                        forecast_hour,manifest
                 FROM project.external_model_source
                 WHERE model='GFS' AND product='pgrb2.0p25'
+                  AND manifest->'requested_fields' @> '["TMP"]'::jsonb
                   AND run_time_utc >= %s AND run_time_utc < %s
                 ORDER BY source_id
             """, (START, END))

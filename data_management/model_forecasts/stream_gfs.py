@@ -18,6 +18,7 @@ import traceback
 import uuid
 from concurrent.futures import ProcessPoolExecutor, wait, FIRST_COMPLETED
 from datetime import date, datetime, timedelta, timezone
+from dataclasses import dataclass
 from pathlib import Path
 
 import manage_gfs as manager
@@ -255,10 +256,41 @@ def failure_details(exc):
     return result
 
 
-def run(args):
+def audit_temperature(conn, args):
+    return conn.execute("""
+        SELECT count(*) FROM project.external_model_temperature t
+        JOIN project.external_model_source s USING(source_id)
+        WHERE s.model='GFS' AND s.run_time_utc >= %s AND s.run_time_utc < %s
+          AND t.station_code='HKO'
+          AND (t.valid_time_utc <> s.run_time_utc + s.forecast_hour * INTERVAL '1 hour'
+               OR t.interval_start_utc < s.run_time_utc
+               OR t.temperature_c NOT BETWEEN -100 AND 70
+               OR t.step_type NOT IN ('instant','min','max'))
+    """, (datetime.combine(args.start, datetime.min.time(), UTC),
+          datetime.combine(args.end, datetime.min.time(), UTC))).fetchone()[0]
+
+
+@dataclass(frozen=True)
+class ImportAdapter:
+    family: str
+    forecast_hours: str
+    checkpoint: int
+    tasks: object
+    fetch: object
+    statements: object
+    commit: object
+    completed: object
+    audit: object
+    setup: object = None
+
+
+def run(args, adapter=None):
     from schema_document import refresh_schema_document
+    if adapter is None:
+        adapter = ImportAdapter('temperature', '0:192:3', 260, tasks, fetch,
+                                insert_statements, commit_source, completed_tasks, audit_temperature)
     stations = manager.station_records(["HKO"])
-    wanted = list(tasks(args.start, args.end, args.cycles))
+    wanted = list(adapter.tasks(args.start, args.end, args.cycles))
     status_path = args.status.resolve()
     lock_path = status_path.with_suffix(".lock")
     lock_path.parent.mkdir(parents=True, exist_ok=True)
@@ -275,7 +307,8 @@ def run(args):
         "state": "starting", "pid": os.getpid(), "start": str(args.start),
         "end_exclusive": str(args.end), "cycles_utc": args.cycles,
         "workers": args.workers,
-        "station": "HKO", "forecast_hours": "0:192:3", "expected_sources": len(wanted),
+        "station": "HKO", "field_family": adapter.family,
+        "forecast_hours": adapter.forecast_hours, "expected_sources": len(wanted),
         "raw_storage": "in_memory_only", "started_at_utc": datetime.now(UTC).isoformat(),
         "sources_done": 0, "new_sources_this_session": 0, "downloaded_bytes_this_session": 0,
         "errors": [], "documentation_current": False,
@@ -283,9 +316,11 @@ def run(args):
     start_clock = time.monotonic()
     since_refresh = 0
     try:
+        if adapter.setup is not None:
+            adapter.setup()
         with manager.connect(read_only=False) as conn:
             conn.autocommit = True
-            done = completed_tasks(conn, args.start, args.end, args.cycles, stations)
+            done = adapter.completed(conn, args.start, args.end, args.cycles, stations)
             pending = [task for task in wanted if task not in done]
             state["sources_done"] = len(wanted) - len(pending)
             state["state"] = "running"
@@ -294,7 +329,7 @@ def run(args):
             write_status(status_path, state)
             last_status_clock = time.monotonic()
             print(f"Starting: {len(pending):,} pending / {len(wanted):,} sources; workers={args.workers}", flush=True)
-            statements = insert_statements()
+            statements = adapter.statements()
             iterator = iter(pending)
             # The bundled ecCodes native decoder is not safe for concurrent
             # calls from threads. Separate worker processes isolate its state.
@@ -303,7 +338,7 @@ def run(args):
                 for _ in range(args.workers):
                     task = next(iterator, None)
                     if task is not None:
-                        active[executor.submit(fetch, task, stations)] = (task, 0)
+                        active[executor.submit(adapter.fetch, task, stations)] = (task, 0)
                 while active:
                     ready, _ = wait(active, timeout=1, return_when=FIRST_COMPLETED)
                     for future in ready:
@@ -314,7 +349,7 @@ def run(args):
                             # Log only a fixed class and forecast identity, never
                             # arbitrary exception strings or connection settings.
                             if attempts < 2 and not _stop.is_set():
-                                active[executor.submit(fetch, task, stations)] = (task, attempts + 1)
+                                active[executor.submit(adapter.fetch, task, stations)] = (task, attempts + 1)
                                 continue
                             state["errors"].append({"run": task[0].isoformat(), "hour": task[1],
                                                     "error_type": type(exc).__name__})
@@ -322,7 +357,7 @@ def run(args):
                             if len(state["errors"]) >= args.max_errors:
                                 _stop.set()
                         else:
-                            commit_source(conn, statements, manifest, rows)
+                            adapter.commit(conn, statements, manifest, rows)
                             state["sources_done"] += 1
                             state["new_sources_this_session"] += 1
                             state["downloaded_bytes_this_session"] += manifest["subset_size_bytes"]
@@ -330,7 +365,7 @@ def run(args):
                             state["last_committed_hour"] = manifest["forecast_hour"]
                             state["documentation_current"] = False
                             since_refresh += 1
-                        if since_refresh >= 260:
+                        if since_refresh >= adapter.checkpoint:
                             refresh_schema_document()
                             state["documentation_current"] = True
                             since_refresh = 0
@@ -350,24 +385,14 @@ def run(args):
                         if not _stop.is_set():
                             following = next(iterator, None)
                             if following is not None:
-                                active[executor.submit(fetch, following, stations)] = (following, 0)
-            final_done = completed_tasks(conn, args.start, args.end, args.cycles, stations)
+                                active[executor.submit(adapter.fetch, following, stations)] = (following, 0)
+            final_done = adapter.completed(conn, args.start, args.end, args.cycles, stations)
             state["sources_done"] = len(set(wanted) & final_done)
             missing = [task for task in wanted if task not in final_done]
             state["missing_sources"] = len(missing)
             state["first_missing_sources"] = [{"run": run.isoformat(), "hour": hour} for run, hour in missing[:20]]
             state["state"] = "complete" if not missing else "incomplete"
-            invalid_rows = conn.execute("""
-                SELECT count(*) FROM project.external_model_temperature t
-                JOIN project.external_model_source s USING(source_id)
-                WHERE s.model='GFS' AND s.run_time_utc >= %s AND s.run_time_utc < %s
-                  AND t.station_code='HKO'
-                  AND (t.valid_time_utc <> s.run_time_utc + s.forecast_hour * INTERVAL '1 hour'
-                       OR t.interval_start_utc < s.run_time_utc
-                       OR t.temperature_c NOT BETWEEN -100 AND 70
-                       OR t.step_type NOT IN ('instant','min','max'))
-            """, (datetime.combine(args.start, datetime.min.time(), UTC),
-                  datetime.combine(args.end, datetime.min.time(), UTC))).fetchone()[0]
+            invalid_rows = adapter.audit(conn, args)
             state["invalid_committed_rows"] = invalid_rows
             if invalid_rows:
                 state["state"] = "verification_failed"

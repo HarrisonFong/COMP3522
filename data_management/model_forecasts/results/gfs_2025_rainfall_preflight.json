@@ -1,0 +1,344 @@
+{
+  "checked_at_utc": "2026-11-13T16:27:09.901302+00:00",
+  "passed": true,
+  "index_checks": 48,
+  "checks": [
+    {
+      "run_date": "2025-01-15",
+      "cycle_utc": 0,
+      "forecast_hour": 0,
+      "apcp_messages": 0,
+      "expected": 0
+    },
+    {
+      "run_date": "2025-01-15",
+      "cycle_utc": 0,
+      "forecast_hour": 3,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-01-15",
+      "cycle_utc": 0,
+      "forecast_hour": 9,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-01-15",
+      "cycle_utc": 0,
+      "forecast_hour": 192,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-02-15",
+      "cycle_utc": 6,
+      "forecast_hour": 0,
+      "apcp_messages": 0,
+      "expected": 0
+    },
+    {
+      "run_date": "2025-02-15",
+      "cycle_utc": 6,
+      "forecast_hour": 3,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-02-15",
+      "cycle_utc": 6,
+      "forecast_hour": 9,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-02-15",
+      "cycle_utc": 6,
+      "forecast_hour": 192,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-03-15",
+      "cycle_utc": 12,
+      "forecast_hour": 0,
+      "apcp_messages": 0,
+      "expected": 0
+    },
+    {
+      "run_date": "2025-03-15",
+      "cycle_utc": 12,
+      "forecast_hour": 3,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-03-15",
+      "cycle_utc": 12,
+      "forecast_hour": 9,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-03-15",
+      "cycle_utc": 12,
+      "forecast_hour": 192,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-04-15",
+      "cycle_utc": 18,
+      "forecast_hour": 0,
+      "apcp_messages": 0,
+      "expected": 0
+    },
+    {
+      "run_date": "2025-04-15",
+      "cycle_utc": 18,
+      "forecast_hour": 3,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-04-15",
+      "cycle_utc": 18,
+      "forecast_hour": 9,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-04-15",
+      "cycle_utc": 18,
+      "forecast_hour": 192,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-05-15",
+      "cycle_utc": 0,
+      "forecast_hour": 0,
+      "apcp_messages": 0,
+      "expected": 0
+    },
+    {
+      "run_date": "2025-05-15",
+      "cycle_utc": 0,
+      "forecast_hour": 3,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-05-15",
+      "cycle_utc": 0,
+      "forecast_hour": 9,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-05-15",
+      "cycle_utc": 0,
+      "forecast_hour": 192,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-06-15",
+      "cycle_utc": 6,
+      "forecast_hour": 0,
+      "apcp_messages": 0,
+      "expected": 0
+    },
+    {
+      "run_date": "2025-06-15",
+      "cycle_utc": 6,
+      "forecast_hour": 3,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-06-15",
+      "cycle_utc": 6,
+      "forecast_hour": 9,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-06-15",
+      "cycle_utc": 6,
+      "forecast_hour": 192,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-07-15",
+      "cycle_utc": 12,
+      "forecast_hour": 0,
+      "apcp_messages": 0,
+      "expected": 0
+    },
+    {
+      "run_date": "2025-07-15",
+      "cycle_utc": 12,
+      "forecast_hour": 3,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-07-15",
+      "cycle_utc": 12,
+      "forecast_hour": 9,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-07-15",
+      "cycle_utc": 12,
+      "forecast_hour": 192,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-08-15",
+      "cycle_utc": 18,
+      "forecast_hour": 0,
+      "apcp_messages": 0,
+      "expected": 0
+    },
+    {
+      "run_date": "2025-08-15",
+      "cycle_utc": 18,
+      "forecast_hour": 3,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-08-15",
+      "cycle_utc": 18,
+      "forecast_hour": 9,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-08-15",
+      "cycle_utc": 18,
+      "forecast_hour": 192,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-09-15",
+      "cycle_utc": 0,
+      "forecast_hour": 0,
+      "apcp_messages": 0,
+      "expected": 0
+    },
+    {
+      "run_date": "2025-09-15",
+      "cycle_utc": 0,
+      "forecast_hour": 3,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-09-15",
+      "cycle_utc": 0,
+      "forecast_hour": 9,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-09-15",
+      "cycle_utc": 0,
+      "forecast_hour": 192,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-10-15",
+      "cycle_utc": 6,
+      "forecast_hour": 0,
+      "apcp_messages": 0,
+      "expected": 0
+    },
+    {
+      "run_date": "2025-10-15",
+      "cycle_utc": 6,
+      "forecast_hour": 3,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-10-15",
+      "cycle_utc": 6,
+      "forecast_hour": 9,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-10-15",
+      "cycle_utc": 6,
+      "forecast_hour": 192,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-11-15",
+      "cycle_utc": 12,
+      "forecast_hour": 0,
+      "apcp_messages": 0,
+      "expected": 0
+    },
+    {
+      "run_date": "2025-11-15",
+      "cycle_utc": 12,
+      "forecast_hour": 3,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-11-15",
+      "cycle_utc": 12,
+      "forecast_hour": 9,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-11-15",
+      "cycle_utc": 12,
+      "forecast_hour": 192,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-12-15",
+      "cycle_utc": 18,
+      "forecast_hour": 0,
+      "apcp_messages": 0,
+      "expected": 0
+    },
+    {
+      "run_date": "2025-12-15",
+      "cycle_utc": 18,
+      "forecast_hour": 3,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-12-15",
+      "cycle_utc": 18,
+      "forecast_hour": 9,
+      "apcp_messages": 2,
+      "expected": 2
+    },
+    {
+      "run_date": "2025-12-15",
+      "cycle_utc": 18,
+      "forecast_hour": 192,
+      "apcp_messages": 2,
+      "expected": 2
+    }
+  ],
+  "scope": "Monthly sample only; production validates every positive lead independently"
+}

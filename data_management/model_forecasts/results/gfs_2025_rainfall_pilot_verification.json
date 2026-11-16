@@ -1,0 +1,64 @@
+{
+  "verified_at_utc": "2026-11-13T16:33:32.938321+00:00",
+  "scope": {
+    "start": "2025-01-01",
+    "end_exclusive": "2025-01-02",
+    "cycles_utc": [
+      0
+    ],
+    "forecast_hours": "3:192:3",
+    "station": "HKO"
+  },
+  "checks": {
+    "read_only": true,
+    "complete_unique_schedule": true,
+    "source_provenance": true,
+    "station_rows": true,
+    "noaa_sample_redownloads": true
+  },
+  "schedule": {
+    "expected_sources": 64,
+    "missing_sources": 0,
+    "unexpected_slots": 0,
+    "duplicate_slots": 0
+  },
+  "source_audit": {
+    "checked": 64,
+    "invalid": 0,
+    "subset_bytes": 61954950
+  },
+  "station_audit": {
+    "rows_checked": 128,
+    "sources_checked": 64,
+    "invalid_rows": 0,
+    "invalid_message_groups": 0,
+    "decoded_digest_mismatches": 0
+  },
+  "table_storage_bytes": {
+    "external_model_precipitation": 98304,
+    "external_model_source": 233431040,
+    "external_model_temperature": 75636736
+  },
+  "online_samples": [
+    {
+      "run_time_utc": "2025-01-01T00:00:00+00:00",
+      "forecast_hour": 3,
+      "raw_sha256_matches": true,
+      "decoded_rows_match": true
+    },
+    {
+      "run_time_utc": "2025-01-01T00:00:00+00:00",
+      "forecast_hour": 9,
+      "raw_sha256_matches": true,
+      "decoded_rows_match": true
+    },
+    {
+      "run_time_utc": "2025-01-01T00:00:00+00:00",
+      "forecast_hour": 192,
+      "raw_sha256_matches": true,
+      "decoded_rows_match": true
+    }
+  ],
+  "passed": true,
+  "limits": "HQ nearest-grid accumulated amounts only. Overlapping messages must not be summed. Does not validate HKT daily totals, historical availability, territory-wide rain or forecast skill. Raw-byte checks are sampled."
+}

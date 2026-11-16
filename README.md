@@ -13,7 +13,10 @@ The [2025 GFS temperature acquisition](data_management/model_forecasts/README.md
 is now complete for all four daily cycles plus late-December 2024 buffers:
 1,492 runs and 287,956 Headquarters temperature extracts. Live coverage,
 all stored row digests and 12 monthly NOAA re-download samples were verified.
-This supplies benchmark inputs; the fair-comparison analysis remains pending.
+The [January 2025 trial](analyses/11_gfs_hko_january_2025/README.md) now applies
+the comparison protocol to paired temperature errors and daily revisions, with
+explicit availability/reconstruction assumptions and RH/rainfall data gaps.
+Full-year fair-comparison results remain pending.
 See [`analyses/README.md`](analyses/README.md) for the folder map and progress,
 and [`analyses/02_rq1_revisions/README.md`](analyses/02_rq1_revisions/README.md)
 for the first completed revision analysis.
