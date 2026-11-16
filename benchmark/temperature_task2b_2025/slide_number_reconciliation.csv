@@ -1,0 +1,9 @@
+variable,lead_days,product,canva_unverified_quote_mae,recomputed_mae,difference,rounding_matches,qualification
+tmax,1,hko,1.039,0.9852054794520548,-0.05379452054794509,False,Different auditable selection/temporal pipeline; original slide inputs unavailable. Do not force-fit.
+tmax,7,hko,1.509,1.4104109589041094,-0.0985890410958905,False,Different auditable selection/temporal pipeline; original slide inputs unavailable. Do not force-fit.
+tmin,1,hko,0.764,0.7158904109589042,-0.04810958904109586,False,Different auditable selection/temporal pipeline; original slide inputs unavailable. Do not force-fit.
+tmin,7,hko,1.107,1.0172602739726029,-0.0897397260273971,False,Different auditable selection/temporal pipeline; original slide inputs unavailable. Do not force-fit.
+tmax,1,bilinear,2.716,2.690499745819545,-0.025500254180454984,False,Different auditable selection/temporal pipeline; original slide inputs unavailable. Do not force-fit.
+tmax,7,bilinear,2.997,2.97410049480231,-0.022899505197689685,False,Different auditable selection/temporal pipeline; original slide inputs unavailable. Do not force-fit.
+tmin,1,bilinear,0.857,0.8618289128897646,0.004828912889764614,False,Different auditable selection/temporal pipeline; original slide inputs unavailable. Do not force-fit.
+tmin,7,bilinear,1.299,1.3135312667518904,0.014531266751890426,False,Different auditable selection/temporal pipeline; original slide inputs unavailable. Do not force-fit.

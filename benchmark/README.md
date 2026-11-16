@@ -1,8 +1,8 @@
 ﻿# GFS 與 HKO 的 benchmark：試驗做了甚麼，為甚麼還需要調整比較方法
 
-最新全年研究：[2025 温度预测与更新效果](temperature_2025/README.md) 已完成
-HKO／GFS 的 365 天、D1–D7 配对比较，并区分数值修订率和实际误差改善。
-采用共同截止时刻，保留 GFS 日极值重建及历史发布时间的限制。
+Task 2b 温度纠偏：[HKT 00:00–次日00:00、nearest 与 bilinear 比较](temperature_task2b_2025/README.md)。
+按报告第7页的自然日定义，使用原始 GFS 四邻点，分别核对有效窗口、空间对齐和选版证据。
+旧 [20:00／nearest-only 温度实验](temperature_2025/README.md) 保留为历史实验，不能替代本次 Task 2b。
 [2025 全年雨量流程比较](rainfall_daily_2025/README.md) 继续保留原有口径。
 下文是历史单次起报试验，数值和限制没有被改写。
 

@@ -6,14 +6,14 @@
     "accuracy.csv": "7d248a825d5c441fb53e4dba76de9ebac8a5e2d24104dc7532452bfd49140e03",
     "accuracy_by_lead.png": "da68d45a2e2f138fe2cdb11c2e62a16a6c54ee453978a0d08348f683f3461ba0",
     "annual_methods.py": "c6390165de64f6beac34388abe16b661cc2e1353a7ab362fcdb57ed24654b2e5",
-    "build_report.py": "671be6fdfc58a3602dfc1e7701e5f03775ac95f8cc9becc1d7a85b3345c1546b",
+    "build_report.py": "7b843b97f2d2c26ce0e91e01f29ef00820fb3a94a2fc09117dac4583ae608ec9",
     "coverage.csv": "16a00a8154c8eb096027d9240f39e801abd112cf3f9c33849a332b08e8161fb6",
     "daily_D1.png": "162671d2d88bbaf4e30a013ea5151f09eb93f4825181e4838ac7b762f853116b",
     "excluded_cases.csv": "60f809caac4cc5ffcd305fd5bdf8aed38972a2e18f273fe27453478b9a050f14",
     "forecast_cases.csv": "50269b79d1f785c216ffa6d727fa0ccea37631e21ef1147af639c61cbc3e8399",
     "native_consistency.json": "34773b8b146aabd36bebff34c8c092054b7cd949b84ad52368e3bfce174b55df",
     "PLAN.md": "48731a8495d9e69c8c319c03a54c68b2b9694238bc7b457b2485f1d4ca24b320",
-    "README.md": "fbc9d1b40b490357ab64a66301bce6413caf1bbf9ea11b4de753e1f675cd80fd",
+    "README.md": "8e4e274488bd2b88f9c88756aead58b99a88ff18062a423b04d70011d7be8c81",
     "reproduction_validation.json": "ea55997cccae65f5143c71cfaa58e951275a26a5e85d0e98faa42657372b2b40",
     "requirements.txt": "c567a577fd170777b5ef8af51a294fcdccc88e183e9ddef850d160110191ca7b",
     "revision_contrasts.csv": "08099b4d88aaaedea9d93f7516c28b9fd9d353365fcd749951af89a2098a7edf",
@@ -27,5 +27,6 @@
     "test_methods.py": "432f7a3e18e786a958083bcd234771a690a076b9e7abad0d145c43253b21a41e",
     "validation.json": "d6447cd4f9ebdf923f32e99c0f1d345759d9889f8b85236f6aa1fcf87dba5402",
     "verify_results.py": "2c356d1784bf75ebc5aa699805e6e3e52e0f70d37996abc76a333b33f79a5f75"
-  }
+  },
+  "superseded_for_task2b_by": "../temperature_task2b_2025/README.md"
 }

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": 69883,
+  "failed_checks": [],
+  "live_hko_selections": null,
+  "online_controls": [],
+  "database_writes": false,
+  "limits": "Valid-window, spatial order, arithmetic, paired CIs and revisions verified. Four-cell raw source checks sampled. Does not certify historical availability or exact native daily extrema."
+}

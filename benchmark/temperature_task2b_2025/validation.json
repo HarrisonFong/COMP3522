@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "checks": 69911,
+  "failed_checks": [],
+  "live_hko_selections": 2555,
+  "online_controls": [
+    {
+      "month": 1,
+      "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20250115/00/atmos/gfs.t00z.pgrb2.0p25.f015",
+      "sha256": "044d89e8a39d1500bd99bea9d717d3d0e4fd4b8b347977ebc7b9be75f4ed3d1a",
+      "four_cells_match": true
+    },
+    {
+      "month": 2,
+      "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20250215/00/atmos/gfs.t00z.pgrb2.0p25.f042",
+      "sha256": "48e8a76f57cd1c1d4cbcaaf8f8ef4e226e142c603333e5088ea909475abd75c9",
+      "four_cells_match": true
+    },
+    {
+      "month": 3,
+      "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20250315/00/atmos/gfs.t00z.pgrb2.0p25.f120",
+      "sha256": "9cdbfc72d3610020f498133703523ba4488e8a4966765618b899876113677481",
+      "four_cells_match": true
+    },
+    {
+      "month": 4,
+      "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20250415/00/atmos/gfs.t00z.pgrb2.0p25.f186",
+      "sha256": "0ec4cf2a180090772bbc577bf73de3a866d9cbcd2bd846aa1c388baa06b69304",
+      "four_cells_match": true
+    },
+    {
+      "month": 5,
+      "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20250515/00/atmos/gfs.t00z.pgrb2.0p25.f015",
+      "sha256": "5722fef6247a7887329a76e9864c7b0624a320476d6e691a49b7a27b5fc7102e",
+      "four_cells_match": true
+    },
+    {
+      "month": 6,
+      "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20250615/00/atmos/gfs.t00z.pgrb2.0p25.f042",
+      "sha256": "d72ad2f90f465f2a8c26988d6bb0b9dd427cbfda751cc8674f0498a5ef13a0ba",
+      "four_cells_match": true
+    },
+    {
+      "month": 7,
+      "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20250715/00/atmos/gfs.t00z.pgrb2.0p25.f120",
+      "sha256": "554249e8b2f3fce8e5dba8323654ecddf68f73b6fad76c6c2b556cf60198756b",
+      "four_cells_match": true
+    },
+    {
+      "month": 8,
+      "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20250815/00/atmos/gfs.t00z.pgrb2.0p25.f186",
+      "sha256": "a71ea8f15f4951a1be239ecdee1164ea2cbd299feeef294f54ad84b176b7d26d",
+      "four_cells_match": true
+    },
+    {
+      "month": 9,
+      "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20250915/00/atmos/gfs.t00z.pgrb2.0p25.f015",
+      "sha256": "9024ccfd13c053d9c7a676358f68129d31a6989590dea074be3ea81094706b31",
+      "four_cells_match": true
+    },
+    {
+      "month": 10,
+      "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20251015/00/atmos/gfs.t00z.pgrb2.0p25.f042",
+      "sha256": "e26323e1d39956c82feb9a4ce20d93b31063b00f88f6805494554a632ff08438",
+      "four_cells_match": true
+    },
+    {
+      "month": 11,
+      "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20251115/00/atmos/gfs.t00z.pgrb2.0p25.f120",
+      "sha256": "3c6b67eea05a69a7c871ecc2c192678a53d99efa92373cd1600815ad202ce6bd",
+      "four_cells_match": true
+    },
+    {
+      "month": 12,
+      "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20251215/00/atmos/gfs.t00z.pgrb2.0p25.f186",
+      "sha256": "474140275bf4e4f42698cf7d990057bb0be20d87e90ecc6c7a4ede435acc23c3",
+      "four_cells_match": true
+    }
+  ],
+  "database_writes": false,
+  "limits": "Valid-window, spatial order, arithmetic, paired CIs and revisions verified. Four-cell raw source checks sampled. Does not certify historical availability or exact native daily extrema."
+}

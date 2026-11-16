@@ -1,0 +1,103 @@
+{
+  "valid_day_definition": "HKT [00:00, next 00:00)",
+  "target_start": "2025-01-01",
+  "target_end_exclusive": "2026-01-01",
+  "hko_forecast_selection": "latest bulletin and RSS <= decision-date 14:00 HKT; retrospective timestamp proxy",
+  "gfs_forecast_selection": "00 UTC initialization on target_date minus calendar lead",
+  "valid_window_start_is_not_forecast_selection_cutoff": true,
+  "database_writes": false,
+  "database_read_only": true,
+  "station": {
+    "station_code": "HKO",
+    "station_name": "Hong Kong Observatory",
+    "latitude": 22.30194444,
+    "longitude": 114.17416667,
+    "elevation_m": 32.0
+  },
+  "gfs_height_m": 2,
+  "hko_measurement_height_m": null,
+  "grid_corners": [
+    [
+      22.25,
+      114.0
+    ],
+    [
+      22.25,
+      114.25
+    ],
+    [
+      22.5,
+      114.0
+    ],
+    [
+      22.5,
+      114.25
+    ]
+  ],
+  "bilinear_weights": [
+    0.2403074022370203,
+    0.5519148377629807,
+    0.0630259177629585,
+    0.14475184223704052
+  ],
+  "nearest_grid": [
+    22.25,
+    114.25
+  ],
+  "gfs_runs": 371,
+  "gfs_sources": 21518,
+  "expected_gfs_runs": 371,
+  "expected_gfs_sources": 21518,
+  "missing_runs": [],
+  "coverage": {
+    "expected_windows": 2555,
+    "hko_timestamp_windows": 2555,
+    "hko_capture_confirmed_windows": 0,
+    "gfs_run_present_windows": 2555,
+    "tmax_expected": 2555,
+    "tmax_hko_numeric": 2555,
+    "tmax_gfs_numeric": 2555,
+    "tmax_truth_numeric": 2555,
+    "tmax_paired": 2555,
+    "tmin_expected": 2555,
+    "tmin_hko_numeric": 2555,
+    "tmin_gfs_numeric": 2555,
+    "tmin_truth_numeric": 2555,
+    "tmin_paired": 2555
+  },
+  "forecast_pair_missingness_pct": {
+    "tmax": 0.0,
+    "tmin": 0.0
+  },
+  "missingness_30pct_gate_passed": true,
+  "verified_common_operational_cases": 0,
+  "operational_availability_evidence_complete": false,
+  "exact_native_daily_extrema": false,
+  "full_year_unqualified_superiority_claim_allowed": false,
+  "daily_temperature_definition": "Extrema of spatially aligned piecewise-linear TMP trajectory restricted to full HKT natural day; temporal proxy",
+  "independently_imported_nearest_controls": 21518,
+  "nearest_control_mismatches": 0,
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 3522,
+    "block_days": 7,
+    "sensitivity_block_days": 14,
+    "unit": "calendar target date, all leads/products together"
+  },
+  "hko_snapshot_sha256": "60cc5b87feaa6b933f342ec2b8eeef9ff571f89148b3f33c31bdb91ca1808f19",
+  "code_sha256": "409e40e7720158cce820a4fbdbb37a20f3a390933d115c82dac3c1806431dd36",
+  "output_hashes": {
+    "cases.csv": "154567733bbe08c48c1cd0476ed9cd675e935eaecaf089dd0b27c1afedb05f0b",
+    "window_knots.csv": "4a7b8b573808de53162551b3085e8a4bc40fad292065e2196eaaaba637136d1b",
+    "source_points.csv": "e74e48b6542e2345968d594f1efc369ee0d383afdefaac38c8c03b80721ce638",
+    "native_interval_inputs.csv": "246cbd652319bc05c7bd591103e1fe8fd1c394ff45ea7bfa48a2d3a462fb2b80",
+    "scores.csv": "bfed9e4ac077508dc67f0991293076911a74e22c959bece8a9e184987b17e204",
+    "spatial_contrasts.csv": "2fbf1c5362102e93ff0d4068597eecc0928834091b9a9787f9485d12b453c9ad",
+    "revision_pairs.csv": "7c865251434193b26e6c724d98344449988a67813636929a22deacf790031685",
+    "revision_summary.csv": "8501292f84db979bfc79c9c42b32077382af1493e79799ca5b35a757e374035a",
+    "revision_contrasts.csv": "4e3ec7ef103407939e37a96fa2d6f6ab7cf1a8077b0cff727e90cdb7162dcf44",
+    "vintage_selection.csv": "f3c233c24fa2d2ec08a062ea85f3482c933dbcd20a012205492130b95e593d7e",
+    "temporal_diagnostics.csv": "07434b60cd7dadf229ef98c5e4624b17de7ab06cd241de214c3dd0954d3e3420",
+    "excluded_cases.csv": "cab416b259342944414082b5af4814918d16e2661fbebb0f779b8de57193b680"
+  }
+}

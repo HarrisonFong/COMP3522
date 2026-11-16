@@ -1,0 +1,19 @@
+{
+  "source": "User-selected Canva design DAHa6VKHCZw",
+  "read_date_hkt": "2026-11-16",
+  "benchmark_actual_page": 7,
+  "benchmark_title": "Task 2a — Benchmark Definition",
+  "reference": "HKO Headquarters observations",
+  "period": "1 Jan–31 Dec 2025",
+  "valid_window": "HKT day: [00:00, next 00:00)",
+  "temperature_variables": "Daily Tmax / Tmin (degrees C)",
+  "spatial_methods": ["Nearest grid", "Bilinear"],
+  "metrics": ["MAE primary", "RMSE", "by variable and lead time", "revision frequency and magnitude", "RevisionGain"],
+  "uncertainty": "95% confidence interval for paired differences; crossing zero remains uncertain",
+  "forecast_missingness_gate": ">=30% means no full-year superiority claim",
+  "temperature_actual_page": 8,
+  "separate_forecast_selection_text": "GFS: 00 UTC runs. HKO: 14:00 HKT archive-confirmed cutoff.",
+  "selection_is_not_the_valid_window": true,
+  "archive_confirmation_status": "Not established by the repository's 2026 backfill capture timestamps",
+  "user_scope": "Redo temperature only; retain the validated rainfall research unchanged"
+}

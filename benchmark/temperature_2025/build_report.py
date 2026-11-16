@@ -111,6 +111,10 @@ def main():
         for r in a if r['scenario'] in (BASE,'20HKT_lag4','20HKT_lag8','20HKT_lag12','12HKT_lag6','16HKT_lag6') and r['group']=='lead' and r['value']=='0'])
     text=f'''# 2025 全年温度预测与更新效果：HKO 和 GFS
 
+> **Task 2b 纠偏：**本目录采用另设的20:00选版与单点提取，没有完成 nearest／bilinear 对比。
+> 它仅保留为历史实验；请使用[按报告定义重做的温度比较](../temperature_task2b_2025/README.md)。
+> 有效日仍须按 HKT 00:00–次日00:00；不能把选版截止时刻当作有效日开始。
+
 2026-11-16 HKT｜参考地点：HKO Headquarters｜Task 2 回顾性产品比较。
 
 ## 可以得出的结论
